@@ -2861,5 +2861,376 @@
         "A bird's eye view of your stock 🦅"
       ]
     }
+  ],
+  "professionals": [
+    {
+      "id": "automotive-professional",
+      "industryId": "automotive",
+      "industry": "Automotive",
+      "role": "Garage Owner",
+      "name": "Alex Morgan",
+      "avatar": "🔧",
+      "specialty": "Vehicle repair & aftermarket parts"
+    },
+    {
+      "id": "electronics-professional",
+      "industryId": "electronics",
+      "industry": "Electronics",
+      "role": "Electronics Store Owner",
+      "name": "Maya Chen",
+      "avatar": "📱",
+      "specialty": "Connected devices & smart tech"
+    },
+    {
+      "id": "fashion-professional",
+      "industryId": "fashion",
+      "industry": "Fashion",
+      "role": "Boutique Owner",
+      "name": "Sofia Reyes",
+      "avatar": "🧵",
+      "specialty": "Independent fashion & accessories"
+    },
+    {
+      "id": "food-professional",
+      "industryId": "food",
+      "industry": "Food & Beverage",
+      "role": "Restaurant Owner",
+      "name": "Arjun Mehta",
+      "avatar": "👩‍🍳",
+      "specialty": "Dining, catering & specialty food"
+    },
+    {
+      "id": "healthcare-professional",
+      "industryId": "healthcare",
+      "industry": "Healthcare",
+      "role": "Hospital Owner",
+      "name": "Dr. Nia Patel",
+      "avatar": "🩺",
+      "specialty": "Patient care & medical supplies"
+    },
+    {
+      "id": "construction-professional",
+      "industryId": "construction",
+      "industry": "Construction",
+      "role": "Construction Firm Owner",
+      "name": "Diego Santos",
+      "avatar": "👷",
+      "specialty": "Building projects & trade materials"
+    },
+    {
+      "id": "retail-professional",
+      "industryId": "retail",
+      "industry": "Retail",
+      "role": "Retail Store Owner",
+      "name": "Olivia Brooks",
+      "avatar": "🛍️",
+      "specialty": "Modern retail & customer experience"
+    },
+    {
+      "id": "hospitality-professional",
+      "industryId": "hospitality",
+      "industry": "Hospitality",
+      "role": "Hotel Owner",
+      "name": "Marcus Lee",
+      "avatar": "🛎️",
+      "specialty": "Hotels, stays & guest services"
+    },
+    {
+      "id": "technology-professional",
+      "industryId": "technology",
+      "industry": "Technology",
+      "role": "Technology Founder",
+      "name": "Avery Kim",
+      "avatar": "💻",
+      "specialty": "Software, IT & digital operations"
+    },
+    {
+      "id": "pharmaceutical-professional",
+      "industryId": "pharmaceutical",
+      "industry": "Pharmaceutical",
+      "role": "Pharmacy Owner",
+      "name": "Dr. Elena Rossi",
+      "avatar": "💊",
+      "specialty": "Pharmaceuticals & wellness"
+    },
+    {
+      "id": "education-professional",
+      "industryId": "education",
+      "industry": "Education",
+      "role": "School Director",
+      "name": "Jordan Williams",
+      "avatar": "🎓",
+      "specialty": "Education & learning services"
+    },
+    {
+      "id": "logistics-professional",
+      "industryId": "logistics",
+      "industry": "Logistics",
+      "role": "Logistics Operator",
+      "name": "Samir Khan",
+      "avatar": "🚚",
+      "specialty": "Fulfilment & supply-chain operations"
+    },
+    {
+      "id": "agriculture-professional",
+      "industryId": "agriculture",
+      "industry": "Agriculture",
+      "role": "Farm Owner",
+      "name": "Priya Nair",
+      "avatar": "🚜",
+      "specialty": "Farming & agricultural supplies"
+    },
+    {
+      "id": "manufacturing-professional",
+      "industryId": "manufacturing",
+      "industry": "Manufacturing",
+      "role": "Factory Owner",
+      "name": "Noah Bennett",
+      "avatar": "🏭",
+      "specialty": "Production & industrial operations"
+    },
+    {
+      "id": "real_estate-professional",
+      "industryId": "real_estate",
+      "industry": "Real Estate",
+      "role": "Real Estate Broker",
+      "name": "Chloe Martin",
+      "avatar": "🏠",
+      "specialty": "Property & development"
+    },
+    {
+      "id": "finance-professional",
+      "industryId": "finance",
+      "industry": "Finance",
+      "role": "Finance Advisor",
+      "name": "Ethan Cole",
+      "avatar": "💼",
+      "specialty": "Business finance & planning"
+    },
+    {
+      "id": "aerospace-professional",
+      "industryId": "aerospace",
+      "industry": "Aerospace & Defense",
+      "role": "Aerospace Supplier",
+      "name": "Hafiz Rahman",
+      "avatar": "🚀",
+      "specialty": "Aerospace parts & industrial sourcing"
+    },
+    {
+      "id": "energy-professional",
+      "industryId": "energy",
+      "industry": "Energy (Oil & Gas)",
+      "role": "Energy Operator",
+      "name": "Grace Taylor",
+      "avatar": "⛽",
+      "specialty": "Energy infrastructure & services"
+    },
+    {
+      "id": "renewable_energy-professional",
+      "industryId": "renewable_energy",
+      "industry": "Renewable Energy",
+      "role": "Solar Business Owner",
+      "name": "Liam Foster",
+      "avatar": "☀️",
+      "specialty": "Renewable energy solutions"
+    },
+    {
+      "id": "mining-professional",
+      "industryId": "mining",
+      "industry": "Mining & Metals",
+      "role": "Mining Operations Owner",
+      "name": "Amina Yusuf",
+      "avatar": "⛏️",
+      "specialty": "Metals, minerals & equipment"
+    },
+    {
+      "id": "chemicals-professional",
+      "industryId": "chemicals",
+      "industry": "Chemicals",
+      "role": "Chemical Supplier",
+      "name": "Victor Huang",
+      "avatar": "🧪",
+      "specialty": "Industrial chemicals & materials"
+    },
+    {
+      "id": "telecom-professional",
+      "industryId": "telecom",
+      "industry": "Telecommunications",
+      "role": "Telecom Provider",
+      "name": "Isabella Moore",
+      "avatar": "📡",
+      "specialty": "Connectivity & communication systems"
+    },
+    {
+      "id": "media-professional",
+      "industryId": "media",
+      "industry": "Media & Entertainment",
+      "role": "Media Studio Owner",
+      "name": "Theo Grant",
+      "avatar": "🎬",
+      "specialty": "Creative media & production"
+    },
+    {
+      "id": "sports-professional",
+      "industryId": "sports",
+      "industry": "Sports",
+      "role": "Sports Club Owner",
+      "name": "Riley Cooper",
+      "avatar": "⚽",
+      "specialty": "Sports, fitness & recreation"
+    },
+    {
+      "id": "gaming-professional",
+      "industryId": "gaming",
+      "industry": "Gaming (Video Games)",
+      "role": "Game Studio Founder",
+      "name": "Kai Nguyen",
+      "avatar": "🎮",
+      "specialty": "Game development & digital worlds"
+    },
+    {
+      "id": "legal-professional",
+      "industryId": "legal",
+      "industry": "Legal Services",
+      "role": "Law Firm Partner",
+      "name": "Amelia Scott",
+      "avatar": "⚖️",
+      "specialty": "Legal counsel & compliance"
+    },
+    {
+      "id": "consulting-professional",
+      "industryId": "consulting",
+      "industry": "Consulting",
+      "role": "Business Consultant",
+      "name": "Daniel Okafor",
+      "avatar": "📊",
+      "specialty": "Strategy & operational consulting"
+    },
+    {
+      "id": "insurance-professional",
+      "industryId": "insurance",
+      "industry": "Insurance",
+      "role": "Insurance Agency Owner",
+      "name": "Harper James",
+      "avatar": "🛡️",
+      "specialty": "Business protection & coverage"
+    },
+    {
+      "id": "nonprofit-professional",
+      "industryId": "nonprofit",
+      "industry": "Nonprofit / NGO",
+      "role": "Nonprofit Director",
+      "name": "Zara Ali",
+      "avatar": "🤝",
+      "specialty": "Community programs & social impact"
+    },
+    {
+      "id": "government-professional",
+      "industryId": "government",
+      "industry": "Government / Public Sector",
+      "role": "Public Services Director",
+      "name": "Henry Adams",
+      "avatar": "🏛️",
+      "specialty": "Civic & public-sector services"
+    },
+    {
+      "id": "transportation-professional",
+      "industryId": "transportation",
+      "industry": "Transportation",
+      "role": "Transport Company Owner",
+      "name": "Mila Petrov",
+      "avatar": "🚆",
+      "specialty": "Mobility & fleet operations"
+    },
+    {
+      "id": "utilities-professional",
+      "industryId": "utilities",
+      "industry": "Utilities (Water, Electricity)",
+      "role": "Utilities Manager",
+      "name": "Owen Clark",
+      "avatar": "💧",
+      "specialty": "Water, power & essential services"
+    },
+    {
+      "id": "waste_management-professional",
+      "industryId": "waste_management",
+      "industry": "Waste Management",
+      "role": "Waste Services Owner",
+      "name": "Fatima Noor",
+      "avatar": "♻️",
+      "specialty": "Recycling & waste operations"
+    },
+    {
+      "id": "publishing-professional",
+      "industryId": "publishing",
+      "industry": "Printing & Publishing",
+      "role": "Publishing House Owner",
+      "name": "Lucas King",
+      "avatar": "📰",
+      "specialty": "Print, publishing & media"
+    },
+    {
+      "id": "packaging-professional",
+      "industryId": "packaging",
+      "industry": "Packaging",
+      "role": "Packaging Company Owner",
+      "name": "Emma Wilson",
+      "avatar": "📦",
+      "specialty": "Packaging & product presentation"
+    },
+    {
+      "id": "textiles-professional",
+      "industryId": "textiles",
+      "industry": "Textiles",
+      "role": "Textile Mill Owner",
+      "name": "Ibrahim Saleh",
+      "avatar": "🧶",
+      "specialty": "Fabrics & textile production"
+    },
+    {
+      "id": "jewelry-professional",
+      "industryId": "jewelry",
+      "industry": "Jewelry",
+      "role": "Jewelry Store Owner",
+      "name": "Anika Gupta",
+      "avatar": "💎",
+      "specialty": "Fine jewelry & luxury goods"
+    },
+    {
+      "id": "cosmetics-professional",
+      "industryId": "cosmetics",
+      "industry": "Cosmetics & Personal Care",
+      "role": "Beauty Brand Founder",
+      "name": "Claire Dubois",
+      "avatar": "💄",
+      "specialty": "Cosmetics & personal care"
+    },
+    {
+      "id": "veterinary-professional",
+      "industryId": "veterinary",
+      "industry": "Veterinary",
+      "role": "Veterinary Clinic Owner",
+      "name": "Dr. Ben Carter",
+      "avatar": "🐾",
+      "specialty": "Animal care & veterinary services"
+    },
+    {
+      "id": "maritime-professional",
+      "industryId": "maritime",
+      "industry": "Maritime / Shipping",
+      "role": "Shipping Company Owner",
+      "name": "Yuki Tanaka",
+      "avatar": "⚓",
+      "specialty": "Maritime logistics & shipping"
+    },
+    {
+      "id": "aviation-professional",
+      "industryId": "aviation",
+      "industry": "Aviation",
+      "role": "Aviation Services Owner",
+      "name": "Leo Martinez",
+      "avatar": "✈️",
+      "specialty": "Aviation & flight services"
+    }
   ]
 }

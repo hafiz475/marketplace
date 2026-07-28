@@ -155,6 +155,15 @@ export async function getIndustries() {
   return response.json();
 }
 
+/** Mock professional personas generated from the industry catalogue. */
+export async function getProfessionals() {
+  if (USE_MOCK_DATA) return { professionals: clone(mockData.professionals) };
+
+  const response = await fetch(`${API_BASE_URL}/api/public/professionals`);
+  if (!response.ok) throw new Error("Failed to fetch professionals");
+  return response.json();
+}
+
 export async function getSearchSuggestions(query: string, _country?: string) {
   if (USE_MOCK_DATA) {
     const normalizedQuery = query.toLowerCase();

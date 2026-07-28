@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { FiShoppingBag, FiLogIn, FiSearch } from "react-icons/fi";
+import { FiShoppingBag, FiLogIn, FiSearch, FiUsers } from "react-icons/fi";
 import "./Header.scss";
 
 const Header = () => {
@@ -22,6 +22,15 @@ const Header = () => {
           aria-label="Search"
         >
           <FiSearch className="header-icon" />
+        </Link>
+
+        <Link
+          href="/professionals"
+          className="header-link"
+          title="Browse professionals"
+        >
+          <FiUsers className="header-icon" />
+          <span className="header-text">Professionals</span>
         </Link>
 
         <Link
