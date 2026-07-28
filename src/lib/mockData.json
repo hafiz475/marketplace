@@ -2875,7 +2875,9 @@
       "role": "Garage Owner",
       "name": "Alex Morgan",
       "avatar": "🔧",
-      "specialty": "Vehicle repair & aftermarket parts"
+      "specialty": "Vehicle repair & aftermarket parts",
+      "color": "#dd7d58",
+      "wash": "#fff0e9"
     },
     {
       "id": "electronics-professional",
@@ -2884,7 +2886,9 @@
       "role": "Electronics Store Owner",
       "name": "Maya Chen",
       "avatar": "📱",
-      "specialty": "Connected devices & smart tech"
+      "specialty": "Connected devices & smart tech",
+      "color": "#3da38c",
+      "wash": "#e9f8f1"
     },
     {
       "id": "fashion-professional",
@@ -2893,7 +2897,9 @@
       "role": "Boutique Owner",
       "name": "Sofia Reyes",
       "avatar": "🧵",
-      "specialty": "Independent fashion & accessories"
+      "specialty": "Independent fashion & accessories",
+      "color": "#8772c3",
+      "wash": "#f1edff"
     },
     {
       "id": "food-professional",
@@ -2902,7 +2908,9 @@
       "role": "Restaurant Owner",
       "name": "Arjun Mehta",
       "avatar": "👩‍🍳",
-      "specialty": "Dining, catering & specialty food"
+      "specialty": "Dining, catering & specialty food",
+      "color": "#5499c1",
+      "wash": "#ecf8ff"
     },
     {
       "id": "healthcare-professional",
@@ -2911,7 +2919,9 @@
       "role": "Hospital Owner",
       "name": "Dr. Nia Patel",
       "avatar": "🩺",
-      "specialty": "Patient care & medical supplies"
+      "specialty": "Patient care & medical supplies",
+      "color": "#d87964",
+      "wash": "#fff0eb"
     },
     {
       "id": "construction-professional",
@@ -2920,7 +2930,9 @@
       "role": "Construction Firm Owner",
       "name": "Diego Santos",
       "avatar": "👷",
-      "specialty": "Building projects & trade materials"
+      "specialty": "Building projects & trade materials",
+      "color": "#9ba649",
+      "wash": "#faf8dd"
     },
     {
       "id": "retail-professional",
@@ -2929,7 +2941,9 @@
       "role": "Retail Store Owner",
       "name": "Olivia Brooks",
       "avatar": "🛍️",
-      "specialty": "Modern retail & customer experience"
+      "specialty": "Modern retail & customer experience",
+      "color": "#dd7d58",
+      "wash": "#fff0e9"
     },
     {
       "id": "hospitality-professional",
@@ -2938,7 +2952,9 @@
       "role": "Hotel Owner",
       "name": "Marcus Lee",
       "avatar": "🛎️",
-      "specialty": "Hotels, stays & guest services"
+      "specialty": "Hotels, stays & guest services",
+      "color": "#3da38c",
+      "wash": "#e9f8f1"
     },
     {
       "id": "technology-professional",
@@ -2947,7 +2963,9 @@
       "role": "Technology Founder",
       "name": "Avery Kim",
       "avatar": "💻",
-      "specialty": "Software, IT & digital operations"
+      "specialty": "Software, IT & digital operations",
+      "color": "#8772c3",
+      "wash": "#f1edff"
     },
     {
       "id": "pharmaceutical-professional",
@@ -2956,7 +2974,9 @@
       "role": "Pharmacy Owner",
       "name": "Dr. Elena Rossi",
       "avatar": "💊",
-      "specialty": "Pharmaceuticals & wellness"
+      "specialty": "Pharmaceuticals & wellness",
+      "color": "#5499c1",
+      "wash": "#ecf8ff"
     },
     {
       "id": "education-professional",
@@ -2965,7 +2985,9 @@
       "role": "School Director",
       "name": "Jordan Williams",
       "avatar": "🎓",
-      "specialty": "Education & learning services"
+      "specialty": "Education & learning services",
+      "color": "#d87964",
+      "wash": "#fff0eb"
     },
     {
       "id": "logistics-professional",
@@ -2974,7 +2996,9 @@
       "role": "Logistics Operator",
       "name": "Samir Khan",
       "avatar": "🚚",
-      "specialty": "Fulfilment & supply-chain operations"
+      "specialty": "Fulfilment & supply-chain operations",
+      "color": "#9ba649",
+      "wash": "#faf8dd"
     },
     {
       "id": "agriculture-professional",
@@ -2983,7 +3007,9 @@
       "role": "Farm Owner",
       "name": "Priya Nair",
       "avatar": "🚜",
-      "specialty": "Farming & agricultural supplies"
+      "specialty": "Farming & agricultural supplies",
+      "color": "#dd7d58",
+      "wash": "#fff0e9"
     },
     {
       "id": "manufacturing-professional",
@@ -2992,7 +3018,9 @@
       "role": "Factory Owner",
       "name": "Noah Bennett",
       "avatar": "🏭",
-      "specialty": "Production & industrial operations"
+      "specialty": "Production & industrial operations",
+      "color": "#3da38c",
+      "wash": "#e9f8f1"
     },
     {
       "id": "real_estate-professional",
@@ -3001,7 +3029,9 @@
       "role": "Real Estate Broker",
       "name": "Chloe Martin",
       "avatar": "🏠",
-      "specialty": "Property & development"
+      "specialty": "Property & development",
+      "color": "#8772c3",
+      "wash": "#f1edff"
     },
     {
       "id": "finance-professional",
@@ -3010,7 +3040,9 @@
       "role": "Finance Advisor",
       "name": "Ethan Cole",
       "avatar": "💼",
-      "specialty": "Business finance & planning"
+      "specialty": "Business finance & planning",
+      "color": "#5499c1",
+      "wash": "#ecf8ff"
     },
     {
       "id": "aerospace-professional",
@@ -3019,7 +3051,9 @@
       "role": "Aerospace Supplier",
       "name": "Hafiz Rahman",
       "avatar": "🚀",
-      "specialty": "Aerospace parts & industrial sourcing"
+      "specialty": "Aerospace parts & industrial sourcing",
+      "color": "#d87964",
+      "wash": "#fff0eb"
     },
     {
       "id": "energy-professional",
@@ -3028,7 +3062,9 @@
       "role": "Energy Operator",
       "name": "Grace Taylor",
       "avatar": "⛽",
-      "specialty": "Energy infrastructure & services"
+      "specialty": "Energy infrastructure & services",
+      "color": "#9ba649",
+      "wash": "#faf8dd"
     },
     {
       "id": "renewable_energy-professional",
@@ -3037,7 +3073,9 @@
       "role": "Solar Business Owner",
       "name": "Liam Foster",
       "avatar": "☀️",
-      "specialty": "Renewable energy solutions"
+      "specialty": "Renewable energy solutions",
+      "color": "#dd7d58",
+      "wash": "#fff0e9"
     },
     {
       "id": "mining-professional",
@@ -3046,7 +3084,9 @@
       "role": "Mining Operations Owner",
       "name": "Amina Yusuf",
       "avatar": "⛏️",
-      "specialty": "Metals, minerals & equipment"
+      "specialty": "Metals, minerals & equipment",
+      "color": "#3da38c",
+      "wash": "#e9f8f1"
     },
     {
       "id": "chemicals-professional",
@@ -3055,7 +3095,9 @@
       "role": "Chemical Supplier",
       "name": "Victor Huang",
       "avatar": "🧪",
-      "specialty": "Industrial chemicals & materials"
+      "specialty": "Industrial chemicals & materials",
+      "color": "#8772c3",
+      "wash": "#f1edff"
     },
     {
       "id": "telecom-professional",
@@ -3064,7 +3106,9 @@
       "role": "Telecom Provider",
       "name": "Isabella Moore",
       "avatar": "📡",
-      "specialty": "Connectivity & communication systems"
+      "specialty": "Connectivity & communication systems",
+      "color": "#5499c1",
+      "wash": "#ecf8ff"
     },
     {
       "id": "media-professional",
@@ -3073,7 +3117,9 @@
       "role": "Media Studio Owner",
       "name": "Theo Grant",
       "avatar": "🎬",
-      "specialty": "Creative media & production"
+      "specialty": "Creative media & production",
+      "color": "#d87964",
+      "wash": "#fff0eb"
     },
     {
       "id": "sports-professional",
@@ -3082,7 +3128,9 @@
       "role": "Sports Club Owner",
       "name": "Riley Cooper",
       "avatar": "⚽",
-      "specialty": "Sports, fitness & recreation"
+      "specialty": "Sports, fitness & recreation",
+      "color": "#9ba649",
+      "wash": "#faf8dd"
     },
     {
       "id": "gaming-professional",
@@ -3091,7 +3139,9 @@
       "role": "Game Studio Founder",
       "name": "Kai Nguyen",
       "avatar": "🎮",
-      "specialty": "Game development & digital worlds"
+      "specialty": "Game development & digital worlds",
+      "color": "#dd7d58",
+      "wash": "#fff0e9"
     },
     {
       "id": "legal-professional",
@@ -3100,7 +3150,9 @@
       "role": "Law Firm Partner",
       "name": "Amelia Scott",
       "avatar": "⚖️",
-      "specialty": "Legal counsel & compliance"
+      "specialty": "Legal counsel & compliance",
+      "color": "#3da38c",
+      "wash": "#e9f8f1"
     },
     {
       "id": "consulting-professional",
@@ -3109,7 +3161,9 @@
       "role": "Business Consultant",
       "name": "Daniel Okafor",
       "avatar": "📊",
-      "specialty": "Strategy & operational consulting"
+      "specialty": "Strategy & operational consulting",
+      "color": "#8772c3",
+      "wash": "#f1edff"
     },
     {
       "id": "insurance-professional",
@@ -3118,7 +3172,9 @@
       "role": "Insurance Agency Owner",
       "name": "Harper James",
       "avatar": "🛡️",
-      "specialty": "Business protection & coverage"
+      "specialty": "Business protection & coverage",
+      "color": "#5499c1",
+      "wash": "#ecf8ff"
     },
     {
       "id": "nonprofit-professional",
@@ -3127,7 +3183,9 @@
       "role": "Nonprofit Director",
       "name": "Zara Ali",
       "avatar": "🤝",
-      "specialty": "Community programs & social impact"
+      "specialty": "Community programs & social impact",
+      "color": "#d87964",
+      "wash": "#fff0eb"
     },
     {
       "id": "government-professional",
@@ -3136,7 +3194,9 @@
       "role": "Public Services Director",
       "name": "Henry Adams",
       "avatar": "🏛️",
-      "specialty": "Civic & public-sector services"
+      "specialty": "Civic & public-sector services",
+      "color": "#9ba649",
+      "wash": "#faf8dd"
     },
     {
       "id": "transportation-professional",
@@ -3145,7 +3205,9 @@
       "role": "Transport Company Owner",
       "name": "Mila Petrov",
       "avatar": "🚆",
-      "specialty": "Mobility & fleet operations"
+      "specialty": "Mobility & fleet operations",
+      "color": "#dd7d58",
+      "wash": "#fff0e9"
     },
     {
       "id": "utilities-professional",
@@ -3154,7 +3216,9 @@
       "role": "Utilities Manager",
       "name": "Owen Clark",
       "avatar": "💧",
-      "specialty": "Water, power & essential services"
+      "specialty": "Water, power & essential services",
+      "color": "#3da38c",
+      "wash": "#e9f8f1"
     },
     {
       "id": "waste_management-professional",
@@ -3163,7 +3227,9 @@
       "role": "Waste Services Owner",
       "name": "Fatima Noor",
       "avatar": "♻️",
-      "specialty": "Recycling & waste operations"
+      "specialty": "Recycling & waste operations",
+      "color": "#8772c3",
+      "wash": "#f1edff"
     },
     {
       "id": "publishing-professional",
@@ -3172,7 +3238,9 @@
       "role": "Publishing House Owner",
       "name": "Lucas King",
       "avatar": "📰",
-      "specialty": "Print, publishing & media"
+      "specialty": "Print, publishing & media",
+      "color": "#5499c1",
+      "wash": "#ecf8ff"
     },
     {
       "id": "packaging-professional",
@@ -3181,7 +3249,9 @@
       "role": "Packaging Company Owner",
       "name": "Emma Wilson",
       "avatar": "📦",
-      "specialty": "Packaging & product presentation"
+      "specialty": "Packaging & product presentation",
+      "color": "#d87964",
+      "wash": "#fff0eb"
     },
     {
       "id": "textiles-professional",
@@ -3190,7 +3260,9 @@
       "role": "Textile Mill Owner",
       "name": "Ibrahim Saleh",
       "avatar": "🧶",
-      "specialty": "Fabrics & textile production"
+      "specialty": "Fabrics & textile production",
+      "color": "#9ba649",
+      "wash": "#faf8dd"
     },
     {
       "id": "jewelry-professional",
@@ -3199,7 +3271,9 @@
       "role": "Jewelry Store Owner",
       "name": "Anika Gupta",
       "avatar": "💎",
-      "specialty": "Fine jewelry & luxury goods"
+      "specialty": "Fine jewelry & luxury goods",
+      "color": "#dd7d58",
+      "wash": "#fff0e9"
     },
     {
       "id": "cosmetics-professional",
@@ -3208,7 +3282,9 @@
       "role": "Beauty Brand Founder",
       "name": "Claire Dubois",
       "avatar": "💄",
-      "specialty": "Cosmetics & personal care"
+      "specialty": "Cosmetics & personal care",
+      "color": "#3da38c",
+      "wash": "#e9f8f1"
     },
     {
       "id": "veterinary-professional",
@@ -3217,7 +3293,9 @@
       "role": "Veterinary Clinic Owner",
       "name": "Dr. Ben Carter",
       "avatar": "🐾",
-      "specialty": "Animal care & veterinary services"
+      "specialty": "Animal care & veterinary services",
+      "color": "#8772c3",
+      "wash": "#f1edff"
     },
     {
       "id": "maritime-professional",
@@ -3226,7 +3304,9 @@
       "role": "Shipping Company Owner",
       "name": "Yuki Tanaka",
       "avatar": "⚓",
-      "specialty": "Maritime logistics & shipping"
+      "specialty": "Maritime logistics & shipping",
+      "color": "#5499c1",
+      "wash": "#ecf8ff"
     },
     {
       "id": "aviation-professional",
@@ -3235,46 +3315,1814 @@
       "role": "Aviation Services Owner",
       "name": "Leo Martinez",
       "avatar": "✈️",
-      "specialty": "Aviation & flight services"
+      "specialty": "Aviation & flight services",
+      "color": "#d87964",
+      "wash": "#fff0eb"
     }
   ],
   "professionalThemes": {
     "automotive": [
       {
-        "id": "garage-sunrise",
-        "name": "Sunrise Garage",
+        "id": "automotive-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Automotive Sunrise",
         "icon": "🌅",
-        "description": "Apricot light, polished chrome, and warm workshop glow."
+        "description": "Warm, welcoming light with polished details."
       },
       {
-        "id": "garage-mint",
-        "name": "Mint Service",
+        "id": "automotive-mint",
+        "themeClass": "garage-mint",
+        "name": "Automotive Mint",
         "icon": "🌿",
-        "description": "Soft mint, sea-glass blue, and calm repair-bay light."
+        "description": "A calm, fresh workspace with gentle contrast."
       },
       {
-        "id": "garage-lilac",
-        "name": "Lilac Lift",
+        "id": "automotive-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Automotive Lilac",
         "icon": "☁️",
-        "description": "Lavender dusk with gentle plum and silver details."
+        "description": "Soft lavender depth and an airy editorial feel."
       },
       {
-        "id": "garage-sky",
-        "name": "Skyline Auto",
+        "id": "automotive-sky",
+        "themeClass": "garage-sky",
+        "name": "Automotive Sky",
         "icon": "🫧",
-        "description": "Airy sky blue with cloud-white panels and cool steel."
+        "description": "Clear blue panels with cool, open-space energy."
       },
       {
-        "id": "garage-peach",
-        "name": "Peach Pitstop",
+        "id": "automotive-peach",
+        "themeClass": "garage-peach",
+        "name": "Automotive Peach",
         "icon": "🍑",
-        "description": "Peach cream, coral accents, and friendly garage warmth."
+        "description": "Friendly peach tones and a human, optimistic glow."
       },
       {
-        "id": "garage-lemon",
-        "name": "Lemon Workshop",
+        "id": "automotive-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Automotive Lemon",
         "icon": "🍋",
-        "description": "Butter yellow, leaf green, and a cheerful studio finish."
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "electronics": [
+      {
+        "id": "electronics-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Electronics Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "electronics-mint",
+        "themeClass": "garage-mint",
+        "name": "Electronics Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "electronics-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Electronics Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "electronics-sky",
+        "themeClass": "garage-sky",
+        "name": "Electronics Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "electronics-peach",
+        "themeClass": "garage-peach",
+        "name": "Electronics Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "electronics-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Electronics Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "fashion": [
+      {
+        "id": "fashion-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Fashion Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "fashion-mint",
+        "themeClass": "garage-mint",
+        "name": "Fashion Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "fashion-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Fashion Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "fashion-sky",
+        "themeClass": "garage-sky",
+        "name": "Fashion Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "fashion-peach",
+        "themeClass": "garage-peach",
+        "name": "Fashion Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "fashion-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Fashion Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "food": [
+      {
+        "id": "food-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Food Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "food-mint",
+        "themeClass": "garage-mint",
+        "name": "Food Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "food-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Food Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "food-sky",
+        "themeClass": "garage-sky",
+        "name": "Food Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "food-peach",
+        "themeClass": "garage-peach",
+        "name": "Food Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "food-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Food Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "healthcare": [
+      {
+        "id": "healthcare-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Healthcare Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "healthcare-mint",
+        "themeClass": "garage-mint",
+        "name": "Healthcare Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "healthcare-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Healthcare Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "healthcare-sky",
+        "themeClass": "garage-sky",
+        "name": "Healthcare Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "healthcare-peach",
+        "themeClass": "garage-peach",
+        "name": "Healthcare Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "healthcare-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Healthcare Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "construction": [
+      {
+        "id": "construction-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Construction Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "construction-mint",
+        "themeClass": "garage-mint",
+        "name": "Construction Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "construction-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Construction Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "construction-sky",
+        "themeClass": "garage-sky",
+        "name": "Construction Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "construction-peach",
+        "themeClass": "garage-peach",
+        "name": "Construction Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "construction-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Construction Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "retail": [
+      {
+        "id": "retail-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Retail Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "retail-mint",
+        "themeClass": "garage-mint",
+        "name": "Retail Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "retail-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Retail Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "retail-sky",
+        "themeClass": "garage-sky",
+        "name": "Retail Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "retail-peach",
+        "themeClass": "garage-peach",
+        "name": "Retail Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "retail-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Retail Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "hospitality": [
+      {
+        "id": "hospitality-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Hospitality Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "hospitality-mint",
+        "themeClass": "garage-mint",
+        "name": "Hospitality Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "hospitality-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Hospitality Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "hospitality-sky",
+        "themeClass": "garage-sky",
+        "name": "Hospitality Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "hospitality-peach",
+        "themeClass": "garage-peach",
+        "name": "Hospitality Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "hospitality-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Hospitality Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "technology": [
+      {
+        "id": "technology-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Technology Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "technology-mint",
+        "themeClass": "garage-mint",
+        "name": "Technology Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "technology-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Technology Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "technology-sky",
+        "themeClass": "garage-sky",
+        "name": "Technology Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "technology-peach",
+        "themeClass": "garage-peach",
+        "name": "Technology Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "technology-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Technology Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "pharmaceutical": [
+      {
+        "id": "pharmaceutical-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Pharmaceutical Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "pharmaceutical-mint",
+        "themeClass": "garage-mint",
+        "name": "Pharmaceutical Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "pharmaceutical-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Pharmaceutical Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "pharmaceutical-sky",
+        "themeClass": "garage-sky",
+        "name": "Pharmaceutical Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "pharmaceutical-peach",
+        "themeClass": "garage-peach",
+        "name": "Pharmaceutical Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "pharmaceutical-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Pharmaceutical Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "education": [
+      {
+        "id": "education-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Education Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "education-mint",
+        "themeClass": "garage-mint",
+        "name": "Education Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "education-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Education Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "education-sky",
+        "themeClass": "garage-sky",
+        "name": "Education Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "education-peach",
+        "themeClass": "garage-peach",
+        "name": "Education Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "education-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Education Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "logistics": [
+      {
+        "id": "logistics-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Logistics Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "logistics-mint",
+        "themeClass": "garage-mint",
+        "name": "Logistics Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "logistics-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Logistics Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "logistics-sky",
+        "themeClass": "garage-sky",
+        "name": "Logistics Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "logistics-peach",
+        "themeClass": "garage-peach",
+        "name": "Logistics Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "logistics-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Logistics Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "agriculture": [
+      {
+        "id": "agriculture-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Agriculture Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "agriculture-mint",
+        "themeClass": "garage-mint",
+        "name": "Agriculture Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "agriculture-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Agriculture Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "agriculture-sky",
+        "themeClass": "garage-sky",
+        "name": "Agriculture Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "agriculture-peach",
+        "themeClass": "garage-peach",
+        "name": "Agriculture Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "agriculture-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Agriculture Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "manufacturing": [
+      {
+        "id": "manufacturing-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Manufacturing Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "manufacturing-mint",
+        "themeClass": "garage-mint",
+        "name": "Manufacturing Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "manufacturing-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Manufacturing Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "manufacturing-sky",
+        "themeClass": "garage-sky",
+        "name": "Manufacturing Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "manufacturing-peach",
+        "themeClass": "garage-peach",
+        "name": "Manufacturing Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "manufacturing-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Manufacturing Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "real_estate": [
+      {
+        "id": "real_estate-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Real Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "real_estate-mint",
+        "themeClass": "garage-mint",
+        "name": "Real Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "real_estate-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Real Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "real_estate-sky",
+        "themeClass": "garage-sky",
+        "name": "Real Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "real_estate-peach",
+        "themeClass": "garage-peach",
+        "name": "Real Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "real_estate-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Real Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "finance": [
+      {
+        "id": "finance-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Finance Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "finance-mint",
+        "themeClass": "garage-mint",
+        "name": "Finance Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "finance-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Finance Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "finance-sky",
+        "themeClass": "garage-sky",
+        "name": "Finance Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "finance-peach",
+        "themeClass": "garage-peach",
+        "name": "Finance Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "finance-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Finance Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "aerospace": [
+      {
+        "id": "aerospace-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Aerospace Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "aerospace-mint",
+        "themeClass": "garage-mint",
+        "name": "Aerospace Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "aerospace-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Aerospace Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "aerospace-sky",
+        "themeClass": "garage-sky",
+        "name": "Aerospace Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "aerospace-peach",
+        "themeClass": "garage-peach",
+        "name": "Aerospace Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "aerospace-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Aerospace Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "energy": [
+      {
+        "id": "energy-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Energy Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "energy-mint",
+        "themeClass": "garage-mint",
+        "name": "Energy Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "energy-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Energy Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "energy-sky",
+        "themeClass": "garage-sky",
+        "name": "Energy Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "energy-peach",
+        "themeClass": "garage-peach",
+        "name": "Energy Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "energy-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Energy Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "renewable_energy": [
+      {
+        "id": "renewable_energy-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Renewable Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "renewable_energy-mint",
+        "themeClass": "garage-mint",
+        "name": "Renewable Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "renewable_energy-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Renewable Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "renewable_energy-sky",
+        "themeClass": "garage-sky",
+        "name": "Renewable Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "renewable_energy-peach",
+        "themeClass": "garage-peach",
+        "name": "Renewable Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "renewable_energy-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Renewable Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "mining": [
+      {
+        "id": "mining-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Mining Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "mining-mint",
+        "themeClass": "garage-mint",
+        "name": "Mining Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "mining-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Mining Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "mining-sky",
+        "themeClass": "garage-sky",
+        "name": "Mining Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "mining-peach",
+        "themeClass": "garage-peach",
+        "name": "Mining Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "mining-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Mining Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "chemicals": [
+      {
+        "id": "chemicals-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Chemicals Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "chemicals-mint",
+        "themeClass": "garage-mint",
+        "name": "Chemicals Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "chemicals-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Chemicals Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "chemicals-sky",
+        "themeClass": "garage-sky",
+        "name": "Chemicals Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "chemicals-peach",
+        "themeClass": "garage-peach",
+        "name": "Chemicals Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "chemicals-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Chemicals Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "telecom": [
+      {
+        "id": "telecom-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Telecommunications Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "telecom-mint",
+        "themeClass": "garage-mint",
+        "name": "Telecommunications Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "telecom-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Telecommunications Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "telecom-sky",
+        "themeClass": "garage-sky",
+        "name": "Telecommunications Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "telecom-peach",
+        "themeClass": "garage-peach",
+        "name": "Telecommunications Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "telecom-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Telecommunications Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "media": [
+      {
+        "id": "media-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Media Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "media-mint",
+        "themeClass": "garage-mint",
+        "name": "Media Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "media-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Media Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "media-sky",
+        "themeClass": "garage-sky",
+        "name": "Media Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "media-peach",
+        "themeClass": "garage-peach",
+        "name": "Media Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "media-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Media Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "sports": [
+      {
+        "id": "sports-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Sports Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "sports-mint",
+        "themeClass": "garage-mint",
+        "name": "Sports Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "sports-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Sports Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "sports-sky",
+        "themeClass": "garage-sky",
+        "name": "Sports Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "sports-peach",
+        "themeClass": "garage-peach",
+        "name": "Sports Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "sports-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Sports Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "gaming": [
+      {
+        "id": "gaming-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Gaming Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "gaming-mint",
+        "themeClass": "garage-mint",
+        "name": "Gaming Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "gaming-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Gaming Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "gaming-sky",
+        "themeClass": "garage-sky",
+        "name": "Gaming Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "gaming-peach",
+        "themeClass": "garage-peach",
+        "name": "Gaming Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "gaming-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Gaming Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "legal": [
+      {
+        "id": "legal-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Legal Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "legal-mint",
+        "themeClass": "garage-mint",
+        "name": "Legal Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "legal-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Legal Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "legal-sky",
+        "themeClass": "garage-sky",
+        "name": "Legal Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "legal-peach",
+        "themeClass": "garage-peach",
+        "name": "Legal Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "legal-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Legal Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "consulting": [
+      {
+        "id": "consulting-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Consulting Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "consulting-mint",
+        "themeClass": "garage-mint",
+        "name": "Consulting Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "consulting-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Consulting Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "consulting-sky",
+        "themeClass": "garage-sky",
+        "name": "Consulting Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "consulting-peach",
+        "themeClass": "garage-peach",
+        "name": "Consulting Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "consulting-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Consulting Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "insurance": [
+      {
+        "id": "insurance-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Insurance Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "insurance-mint",
+        "themeClass": "garage-mint",
+        "name": "Insurance Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "insurance-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Insurance Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "insurance-sky",
+        "themeClass": "garage-sky",
+        "name": "Insurance Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "insurance-peach",
+        "themeClass": "garage-peach",
+        "name": "Insurance Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "insurance-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Insurance Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "nonprofit": [
+      {
+        "id": "nonprofit-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Nonprofit Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "nonprofit-mint",
+        "themeClass": "garage-mint",
+        "name": "Nonprofit Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "nonprofit-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Nonprofit Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "nonprofit-sky",
+        "themeClass": "garage-sky",
+        "name": "Nonprofit Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "nonprofit-peach",
+        "themeClass": "garage-peach",
+        "name": "Nonprofit Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "nonprofit-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Nonprofit Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "government": [
+      {
+        "id": "government-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Government Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "government-mint",
+        "themeClass": "garage-mint",
+        "name": "Government Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "government-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Government Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "government-sky",
+        "themeClass": "garage-sky",
+        "name": "Government Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "government-peach",
+        "themeClass": "garage-peach",
+        "name": "Government Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "government-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Government Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "transportation": [
+      {
+        "id": "transportation-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Transportation Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "transportation-mint",
+        "themeClass": "garage-mint",
+        "name": "Transportation Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "transportation-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Transportation Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "transportation-sky",
+        "themeClass": "garage-sky",
+        "name": "Transportation Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "transportation-peach",
+        "themeClass": "garage-peach",
+        "name": "Transportation Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "transportation-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Transportation Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "utilities": [
+      {
+        "id": "utilities-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Utilities Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "utilities-mint",
+        "themeClass": "garage-mint",
+        "name": "Utilities Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "utilities-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Utilities Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "utilities-sky",
+        "themeClass": "garage-sky",
+        "name": "Utilities Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "utilities-peach",
+        "themeClass": "garage-peach",
+        "name": "Utilities Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "utilities-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Utilities Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "waste_management": [
+      {
+        "id": "waste_management-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Waste Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "waste_management-mint",
+        "themeClass": "garage-mint",
+        "name": "Waste Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "waste_management-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Waste Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "waste_management-sky",
+        "themeClass": "garage-sky",
+        "name": "Waste Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "waste_management-peach",
+        "themeClass": "garage-peach",
+        "name": "Waste Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "waste_management-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Waste Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "publishing": [
+      {
+        "id": "publishing-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Printing Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "publishing-mint",
+        "themeClass": "garage-mint",
+        "name": "Printing Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "publishing-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Printing Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "publishing-sky",
+        "themeClass": "garage-sky",
+        "name": "Printing Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "publishing-peach",
+        "themeClass": "garage-peach",
+        "name": "Printing Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "publishing-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Printing Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "packaging": [
+      {
+        "id": "packaging-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Packaging Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "packaging-mint",
+        "themeClass": "garage-mint",
+        "name": "Packaging Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "packaging-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Packaging Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "packaging-sky",
+        "themeClass": "garage-sky",
+        "name": "Packaging Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "packaging-peach",
+        "themeClass": "garage-peach",
+        "name": "Packaging Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "packaging-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Packaging Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "textiles": [
+      {
+        "id": "textiles-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Textiles Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "textiles-mint",
+        "themeClass": "garage-mint",
+        "name": "Textiles Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "textiles-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Textiles Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "textiles-sky",
+        "themeClass": "garage-sky",
+        "name": "Textiles Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "textiles-peach",
+        "themeClass": "garage-peach",
+        "name": "Textiles Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "textiles-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Textiles Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "jewelry": [
+      {
+        "id": "jewelry-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Jewelry Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "jewelry-mint",
+        "themeClass": "garage-mint",
+        "name": "Jewelry Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "jewelry-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Jewelry Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "jewelry-sky",
+        "themeClass": "garage-sky",
+        "name": "Jewelry Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "jewelry-peach",
+        "themeClass": "garage-peach",
+        "name": "Jewelry Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "jewelry-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Jewelry Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "cosmetics": [
+      {
+        "id": "cosmetics-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Cosmetics Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "cosmetics-mint",
+        "themeClass": "garage-mint",
+        "name": "Cosmetics Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "cosmetics-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Cosmetics Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "cosmetics-sky",
+        "themeClass": "garage-sky",
+        "name": "Cosmetics Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "cosmetics-peach",
+        "themeClass": "garage-peach",
+        "name": "Cosmetics Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "cosmetics-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Cosmetics Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "veterinary": [
+      {
+        "id": "veterinary-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Veterinary Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "veterinary-mint",
+        "themeClass": "garage-mint",
+        "name": "Veterinary Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "veterinary-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Veterinary Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "veterinary-sky",
+        "themeClass": "garage-sky",
+        "name": "Veterinary Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "veterinary-peach",
+        "themeClass": "garage-peach",
+        "name": "Veterinary Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "veterinary-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Veterinary Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "maritime": [
+      {
+        "id": "maritime-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Maritime Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "maritime-mint",
+        "themeClass": "garage-mint",
+        "name": "Maritime Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "maritime-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Maritime Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "maritime-sky",
+        "themeClass": "garage-sky",
+        "name": "Maritime Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "maritime-peach",
+        "themeClass": "garage-peach",
+        "name": "Maritime Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "maritime-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Maritime Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
+      }
+    ],
+    "aviation": [
+      {
+        "id": "aviation-sunrise",
+        "themeClass": "garage-sunrise",
+        "name": "Aviation Sunrise",
+        "icon": "🌅",
+        "description": "Warm, welcoming light with polished details."
+      },
+      {
+        "id": "aviation-mint",
+        "themeClass": "garage-mint",
+        "name": "Aviation Mint",
+        "icon": "🌿",
+        "description": "A calm, fresh workspace with gentle contrast."
+      },
+      {
+        "id": "aviation-lilac",
+        "themeClass": "garage-lilac",
+        "name": "Aviation Lilac",
+        "icon": "☁️",
+        "description": "Soft lavender depth and an airy editorial feel."
+      },
+      {
+        "id": "aviation-sky",
+        "themeClass": "garage-sky",
+        "name": "Aviation Sky",
+        "icon": "🫧",
+        "description": "Clear blue panels with cool, open-space energy."
+      },
+      {
+        "id": "aviation-peach",
+        "themeClass": "garage-peach",
+        "name": "Aviation Peach",
+        "icon": "🍑",
+        "description": "Friendly peach tones and a human, optimistic glow."
+      },
+      {
+        "id": "aviation-lemon",
+        "themeClass": "garage-lemon",
+        "name": "Aviation Lemon",
+        "icon": "🍋",
+        "description": "A bright, sunny workspace with botanical calm."
       }
     ]
   }
