@@ -1234,6 +1234,15 @@
     }
 }
 
+.public-cart-page.automotive-theme:is(.theme-garage-sunrise, .theme-garage-mint, .theme-garage-lilac, .theme-garage-sky, .theme-garage-peach, .theme-garage-lemon) {
+    .cart-item, .checkout-sidebar .booking-section, .checkout-sidebar .customer-delivery-container, .checkout-sidebar .summary-section { border-color: rgba(var(--art-primary-rgb), .18); box-shadow: 0 12px 28px rgba(45, 58, 80, .08); }
+    .item-actions .quantity-ctrl { background: #263548; border-color: rgba(var(--art-primary-rgb), .65); }
+    .item-actions .quantity-ctrl button { color: #fff; }
+    .checkout-sidebar .detect-loc-btn, .checkout-sidebar .cta-buttons-group .detect-loc-btn { color: var(--art-text); background: rgba(var(--art-primary-rgb), .12); }
+    .checkout-sidebar .input-group input, .checkout-sidebar .cta-buttons-group .input-group input { background: #fff; border-color: rgba(var(--art-primary-rgb), .3); color: var(--art-text); color-scheme: light; }
+    .checkout-sidebar .summary-row.total, .checkout-sidebar .cta-buttons-group .summary-row.total { color: var(--art-text); }
+}
+
 @keyframes modal-fade-in {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -1248,4 +1257,4 @@
         opacity: 1;
         transform: translateY(0);
     }
-}
+}

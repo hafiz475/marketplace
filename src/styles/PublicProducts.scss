@@ -1091,6 +1091,31 @@
     }
 }
 
+// Light professional themes need dedicated control surfaces because the original
+// automotive UI intentionally uses translucent black controls and white labels.
+.public-products.automotive-theme:is(.theme-garage-sunrise, .theme-garage-mint, .theme-garage-lilac, .theme-garage-sky, .theme-garage-peach, .theme-garage-lemon) {
+    .auto-filters {
+        .inventory-toggle { background: rgba(255, 255, 255, .82); border-color: rgba(var(--art-primary-rgb), .22); box-shadow: 0 8px 20px rgba(45, 58, 80, .07); }
+        .inventory-toggle .toggle-btn { color: var(--art-text-muted); }
+        .inventory-toggle .toggle-btn:hover:not(.active) { background: rgba(var(--art-primary-rgb), .12); color: var(--art-text); }
+        .search-wrap input { background: rgba(255, 255, 255, .9); border-color: rgba(var(--art-primary-rgb), .24); color: var(--art-text); box-shadow: 0 8px 20px rgba(45, 58, 80, .06); }
+        .search-wrap input::placeholder { color: var(--art-text-muted); opacity: .85; }
+        .industry-badge-filters .badge-tab { background: rgba(255, 255, 255, .86); border-color: rgba(var(--art-primary-rgb), .16); color: var(--art-text-muted); }
+        .industry-badge-filters .badge-tab:hover { background: #fff; border-color: rgba(var(--art-primary-rgb), .45); color: var(--art-text); }
+    }
+
+    .auto-card { border-color: rgba(var(--art-primary-rgb), .18); box-shadow: 0 10px 22px rgba(45, 58, 80, .07); }
+    .auto-card:hover { box-shadow: 0 20px 34px rgba(45, 58, 80, .14), 0 0 0 3px rgba(var(--art-primary-rgb), .10); }
+    .auto-card .card-image-wrap { background: linear-gradient(135deg, rgba(var(--art-primary-rgb), .16), rgba(255, 255, 255, .86)); }
+    .auto-card .card-image-wrap .price-tag,
+    .auto-card .card-image-wrap .duration-tag,
+    .cart-controls .quantity-toggle { background: #263548; border-color: rgba(var(--art-primary-rgb), .72); }
+    .auto-card .card-image-wrap .price-tag { color: #fff; }
+    .auto-card .card-info:hover { background: rgba(var(--art-primary-rgb), .055); }
+    .cart-controls .quantity-toggle .q-val { color: #fff; }
+    .cart-fab { box-shadow: 0 12px 26px rgba(var(--art-primary-rgb), .32); }
+}
+
 @keyframes gear-rotate-global {
     from {
         transform: rotate(0deg);
@@ -1174,4 +1199,4 @@
     &:active {
         transform: translateY(-1px) scale(1.02);
     }
-}
+}

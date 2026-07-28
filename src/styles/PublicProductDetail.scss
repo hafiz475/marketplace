@@ -960,6 +960,14 @@
     }
 }
 
+.product-detail-page.automotive-theme:is(.theme-garage-sunrise, .theme-garage-mint, .theme-garage-lilac, .theme-garage-sky, .theme-garage-peach, .theme-garage-lemon) {
+    .detail-qty-selector { background: rgba(255, 255, 255, .88); border-color: rgba(var(--art-primary-rgb), .24); box-shadow: 0 10px 24px rgba(45, 58, 80, .08); }
+    .detail-qty-selector .qty-controls { background: #263548; border-color: rgba(var(--art-primary-rgb), .72); }
+    .detail-qty-selector .qty-controls .qty-btn, .detail-qty-selector .qty-controls .qty-val { color: #fff; }
+    .detail-qty-selector .qty-controls .qty-val { border-color: rgba(255, 255, 255, .22); }
+    .image-section .main-image { background: linear-gradient(135deg, rgba(var(--art-primary-rgb), .15), #fff); border-color: rgba(var(--art-primary-rgb), .18); }
+}
+
 // circlTrade Modal Styling
 .circltrade-modal-overlay {
     position: fixed;
@@ -1837,4 +1845,4 @@
             }
         }
     }
-}
+}
