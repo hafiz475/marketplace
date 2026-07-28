@@ -122,7 +122,7 @@ export async function searchProductsNearby(params: {
 
 export async function getAvailableCountries() {
   if (USE_MOCK_DATA) {
-    return { success: true, countries: [clone(mockData.profile.profile.store.country)] };
+    return { success: true, countries: clone(mockData.availableCountries) };
   }
   const response = await fetch(`${API_BASE_URL}/api/public/search/available-countries`);
   if (!response.ok) throw new Error("Failed to fetch countries");
@@ -132,13 +132,25 @@ export async function getAvailableCountries() {
 export async function getAvailableIndustries(_country?: string, itemType?: string) {
   if (USE_MOCK_DATA) {
     const items = itemType ? allItems.filter((item) => item.itemType === itemType) : allItems;
-    const industries = [...new Set(items.flatMap((item) => item.industry))].map((name) => ({ id: name, name }));
+    const industries = [...new Set(items.flatMap((item) => item.industry))].map((name) => {
+      const definition = mockData.industries.find((industry) => industry.name === name);
+      return definition || { id: name, name, icon: "🏷️", taglines: [] };
+    });
     return { success: true, industries };
   }
   const queryParams = new URLSearchParams();
   if (_country) queryParams.set("country", _country);
   if (itemType) queryParams.set("itemType", itemType);
   const response = await fetch(`${API_BASE_URL}/api/public/search/available-industries?${queryParams}`);
+  if (!response.ok) throw new Error("Failed to fetch industries");
+  return response.json();
+}
+
+/** Full public industry catalogue supplied by the source API. */
+export async function getIndustries() {
+  if (USE_MOCK_DATA) return { industries: clone(mockData.industries) };
+
+  const response = await fetch(`${API_BASE_URL}/api/public/industries`);
   if (!response.ok) throw new Error("Failed to fetch industries");
   return response.json();
 }
@@ -168,8 +180,7 @@ export async function detectCountry(_lat: number, _lng: number) {
 
 export async function getCountryData() {
   if (USE_MOCK_DATA) {
-    const { country, location } = mockData.profile.profile.store;
-    return { success: true, countryData: { [country.iso2]: { lat: location.latitude, lng: location.longitude, name: country.name } } };
+    return { success: true, countryData: clone(mockData.countryData) };
   }
   const response = await fetch(`${API_BASE_URL}/api/public/search/country-data`);
   if (!response.ok) throw new Error("Failed to fetch country data");
