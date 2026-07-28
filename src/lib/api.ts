@@ -3,6 +3,7 @@ import mockData from "./mockData.json";
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
 const USE_MOCK_DATA =
   process.env.NEXT_PUBLIC_IS_MOCK_DATA === "true";
+const MOCK_THEME_STORAGE_KEY = "circltrade:mock-profile-theme";
 
 type ProductParams = {
   selectedPType?: string;
@@ -47,11 +48,30 @@ function mockProducts(params: ProductParams) {
 }
 
 export async function getPublicProfile(_company: string) {
-  if (USE_MOCK_DATA) return clone(mockData.profile);
+  if (USE_MOCK_DATA) {
+    const profile = clone(mockData.profile);
+    if (typeof window !== "undefined") {
+      const selectedTheme = window.localStorage.getItem(MOCK_THEME_STORAGE_KEY);
+      if (selectedTheme && profile.profile.inApps.themesAvailable.includes(selectedTheme)) {
+        profile.profile.inApps.selectedTheme = selectedTheme;
+      }
+    }
+    return profile;
+  }
 
   const response = await fetch(`${API_BASE_URL}/api/public/profile/${_company}`);
   if (!response.ok) throw new Error("Failed to fetch profile");
   return response.json();
+}
+
+/**
+ * Mock-only counterpart to saving a store theme through the profile API.
+ * The storefront subsequently reads this through getPublicProfile().
+ */
+export function setMockProfileTheme(theme: string) {
+  if (USE_MOCK_DATA && typeof window !== "undefined") {
+    window.localStorage.setItem(MOCK_THEME_STORAGE_KEY, theme);
+  }
 }
 
 export async function getPublicProducts(company: string, params: ProductParams = {}) {

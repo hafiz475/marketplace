@@ -4,7 +4,7 @@ import { useEffect, useState, type CSSProperties } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { FiArrowLeft, FiArrowRight, FiCheck, FiSearch, FiX } from "react-icons/fi";
-import { getProfessionals, getProfessionalThemes } from "@/lib/api";
+import { getProfessionals, getProfessionalThemes, setMockProfileTheme } from "@/lib/api";
 import "./professionals.scss";
 
 type Professional = {
@@ -110,7 +110,7 @@ export default function ProfessionalsPage() {
             <p className="theme-picker-intro">Six light, illustrated storefront looks are available for {themeProfessional.name}. Pick one to enter the Aerospace demo.</p>
             <div className="theme-grid">
               {themes.map((theme) => (
-                <button key={theme.id} type="button" className={`theme-option ${theme.themeClass}`} onClick={() => router.push(`/sites/aerospace?theme=${theme.themeClass}`)}>
+                <button key={theme.id} type="button" className={`theme-option ${theme.themeClass}`} onClick={() => { setMockProfileTheme(theme.themeClass); router.push("/sites/aerospace"); }}>
                   <span className="theme-orb" aria-hidden="true">{theme.icon}</span>
                   <span className="theme-spark spark-one">✦</span><span className="theme-spark spark-two">✦</span>
                   <strong>{theme.name}</strong>
