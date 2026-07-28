@@ -9,6 +9,7 @@ import { useCart } from "@/lib/CartContext";
 import { GlobeLoader } from "@/components/GlobeLoader";
 import { ChatOpsGlobe } from "@/components/ChatOpsGlobe";
 import PublicLoadingScreen from "@/components/PublicLoadingScreen";
+import BusinessAtmosphere from "@/components/BusinessAtmosphere";
 import PhoneInput from "@/components/PhoneInput";
 import ChatOpsSuccessOverlay from "@/components/ChatOpsSuccessOverlay";
 import dynamic from "next/dynamic";
@@ -123,6 +124,7 @@ const hasSocialValue = (val: any) => {
 
 interface Profile {
   industry?: string;
+  businessIcon?: string;
   selectedTheme?: string;
   phoneNumber?: { countryCode?: string; phoneNumber?: string } | string;
   company?: string;
@@ -536,6 +538,7 @@ export default function CartPage() {
 
   return (
     <div className={`public-cart-page automotive-theme ${themeClass}`}>
+      <BusinessAtmosphere industry={profile?.industry} icon={profile?.businessIcon} />
       <GearCursor themeClass={themeClass} />
       <div className="auto-background-grid"></div>
       <div className="auto-glow-shapes">
@@ -853,10 +856,11 @@ export default function CartPage() {
 
             {isHomeDeliverable && (
               <>
-                <div className="delivery-toggle-row" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'rgba(0, 0, 0, 0.3)', border: '1px solid rgba(255, 255, 255, 0.1)', padding: '16px', borderRadius: '16px', marginBottom: '20px' }}>
+                <div className="delivery-toggle-row" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '16px', borderRadius: '16px', marginBottom: '20px' }}>
                   <span style={{ color: '#fff', fontSize: '0.95rem', fontFamily: 'var(--art-font-bold)' }}>Request Delivery?</span>
                   <button
                     type="button"
+                    className={requestDelivery ? "active" : ""}
                     onClick={() => setRequestDelivery(prev => !prev)}
                     style={{
                       padding: '8px 20px',

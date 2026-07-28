@@ -966,6 +966,19 @@
     .detail-qty-selector .qty-controls .qty-btn, .detail-qty-selector .qty-controls .qty-val { color: #fff; }
     .detail-qty-selector .qty-controls .qty-val { border-color: rgba(255, 255, 255, .22); }
     .image-section .main-image { background: linear-gradient(135deg, rgba(var(--art-primary-rgb), .15), #fff); border-color: rgba(var(--art-primary-rgb), .18); }
+    .themed-description { padding: 19px 20px; border: 1px solid rgba(var(--art-primary-rgb), .22); border-radius: 18px; background: rgba(255, 255, 255, .78); box-shadow: 0 10px 22px rgba(45, 58, 80, .06); }
+    .themed-description h3 { margin: 0 0 8px; color: var(--art-text) !important; font-size: 1rem; }
+    .themed-description p { margin: 0; color: var(--art-text-muted) !important; line-height: 1.6; font-size: .95rem; }
+    .cta-section, .checkout-sidebar .booking-section, .checkout-sidebar .customer-delivery-container, .checkout-sidebar .summary-section { border-color: rgba(var(--art-primary-rgb), .22); box-shadow: 0 14px 28px rgba(45, 58, 80, .08); }
+    .delivery-toggle-row { background: rgba(255, 255, 255, .88) !important; border: 1px solid rgba(var(--art-primary-rgb), .25) !important; box-shadow: 0 8px 18px rgba(45, 58, 80, .06); }
+    .delivery-toggle-row > span { color: var(--art-text) !important; }
+    .delivery-toggle-row button { background: #263548 !important; color: #fff !important; box-shadow: none; }
+    .delivery-toggle-row button.active { background: var(--art-primary) !important; color: #1f2937 !important; }
+    .delivery-calculation-box { color: var(--art-text-muted) !important; background: rgba(255, 255, 255, .76) !important; border-color: var(--art-primary) !important; }
+    .delivery-calculation-box div, .delivery-calculation-box div div { color: var(--art-text-muted) !important; }
+    .delivery-calculation-box strong { color: var(--art-primary) !important; }
+    .summary-section .summary-row.total { padding: 17px 15px; border: 1px solid rgba(var(--art-primary-rgb), .3); border-radius: 14px; background: rgba(var(--art-primary-rgb), .10); color: var(--art-text) !important; }
+    .summary-section .summary-row.total span:first-child { color: var(--art-text) !important; }
 }
 
 // circlTrade Modal Styling

@@ -13,6 +13,7 @@ import Link from "next/link";
 import { getPublicProducts, getPublicProfile } from "@/lib/api";
 import { useCart } from "@/lib/CartContext";
 import PublicLoadingScreen from "@/components/PublicLoadingScreen";
+import BusinessAtmosphere from "@/components/BusinessAtmosphere";
 import {
   INDUSTRY_ICONS,
   PRODUCT_ICON,
@@ -174,6 +175,7 @@ interface Profile {
   profileImage?: string;
   aboutCompany?: string;
   industry?: string;
+  businessIcon?: string;
   selectedTheme?: string;
   storeAddress?: string;
   storeLocation?: { latitude?: number; longitude?: number };
@@ -447,6 +449,7 @@ export default function ProductsPage() {
 
   return (
     <div className={`public-products automotive-theme ${themeClass}`}>
+      <BusinessAtmosphere industry={profile?.industry} icon={profile?.businessIcon} />
       <GearCursor themeClass={themeClass} />
 
       <header className="auto-hero">

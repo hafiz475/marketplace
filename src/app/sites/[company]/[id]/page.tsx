@@ -6,6 +6,7 @@ import { useParams, useRouter } from "next/navigation";
 import { getPublicProductById, getPublicProfile, createChatOpsMessage } from "@/lib/api";
 import { useCart } from "@/lib/CartContext";
 import PublicLoadingScreen from "@/components/PublicLoadingScreen";
+import BusinessAtmosphere from "@/components/BusinessAtmosphere";
 import { PLACEHOLDER_ICON, CART_ICON, SOCIAL_ICONS, CALENDAR_ICON } from "@/lib/publicIcons";
 import Link from "next/link";
 import { GlobeLoader } from "@/components/GlobeLoader";
@@ -227,6 +228,8 @@ export default function ProductDetailPage() {
   const [product, setProduct] = useState<Product | null>(null);
   const [profile, setProfile] = useState<{
     selectedTheme?: string;
+    industry?: string;
+    businessIcon?: string;
     phoneNumber?: { countryCode?: string; phoneNumber?: string } | string;
     company?: string;
     profileImage?: string;
@@ -966,9 +969,9 @@ export default function ProductDetailPage() {
       )}
 
       {product.description && (
-        <div className="description-section" style={{ marginTop: '20px' }}>
-          <h3 style={{ fontSize: '1rem', color: '#fff', marginBottom: '8px' }}>Description</h3>
-          <p style={{ color: '#ccc', lineHeight: '1.6', fontSize: '0.95rem' }}>{product.description}</p>
+        <div className="description-section themed-description" style={{ marginTop: '20px' }}>
+          <h3>Description</h3>
+          <p>{product.description}</p>
         </div>
       )}
 
@@ -1211,10 +1214,11 @@ export default function ProductDetailPage() {
 
       {isHomeDeliverable && (
         <>
-          <div className="delivery-toggle-row" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', backgroundColor: '#0b0b0b', padding: '10px 15px', borderRadius: '8px', marginBottom: '15px' }}>
+          <div className="delivery-toggle-row" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '10px 15px', borderRadius: '8px', marginBottom: '15px' }}>
             <span style={{ color: '#fff', fontSize: '0.95rem' }}>Request Delivery?</span>
             <button
               type="button"
+              className={requestDelivery ? "active" : ""}
               onClick={() => setRequestDelivery(prev => !prev)}
               style={{
                 padding: '6px 16px',
@@ -1302,6 +1306,7 @@ export default function ProductDetailPage() {
 
   return (
     <div className={`product-detail-page automotive-theme ${themeClass}`}>
+      <BusinessAtmosphere industry={profile?.industry} icon={profile?.businessIcon} />
       <GearCursor themeClass={themeClass} />
 
       <button className="back-link" onClick={handleBack}>

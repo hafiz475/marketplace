@@ -76,7 +76,9 @@
       },
       "profileRating": 20,
       "connectionsCount": 0,
-      "totalTurnover": 0
+      "totalTurnover": 0,
+      "industry": "automotive",
+      "businessIcon": "🔧"
     }
   },
   "products": {

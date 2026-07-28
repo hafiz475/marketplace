@@ -4,6 +4,7 @@ const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
 const USE_MOCK_DATA =
   process.env.NEXT_PUBLIC_IS_MOCK_DATA === "true";
 const MOCK_THEME_STORAGE_KEY = "circltrade:mock-profile-theme";
+const MOCK_INDUSTRY_STORAGE_KEY = "circltrade:mock-profile-industry";
 
 type ProductParams = {
   selectedPType?: string;
@@ -52,8 +53,14 @@ export async function getPublicProfile(_company: string) {
     const profile = clone(mockData.profile);
     if (typeof window !== "undefined") {
       const selectedTheme = window.localStorage.getItem(MOCK_THEME_STORAGE_KEY);
+      const selectedIndustry = window.localStorage.getItem(MOCK_INDUSTRY_STORAGE_KEY);
       if (selectedTheme && profile.profile.inApps.themesAvailable.includes(selectedTheme)) {
         profile.profile.inApps.selectedTheme = selectedTheme;
+      }
+      const professional = mockData.professionals.find((item) => item.industryId === selectedIndustry);
+      if (professional) {
+        profile.profile.industry = professional.industryId;
+        profile.profile.businessIcon = professional.avatar;
       }
     }
     return profile;
@@ -71,6 +78,12 @@ export async function getPublicProfile(_company: string) {
 export function setMockProfileTheme(theme: string) {
   if (USE_MOCK_DATA && typeof window !== "undefined") {
     window.localStorage.setItem(MOCK_THEME_STORAGE_KEY, theme);
+  }
+}
+
+export function setMockProfileIndustry(industryId: string) {
+  if (USE_MOCK_DATA && typeof window !== "undefined") {
+    window.localStorage.setItem(MOCK_INDUSTRY_STORAGE_KEY, industryId);
   }
 }
 
