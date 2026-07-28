@@ -1,0 +1,172 @@
+.chatops-success-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(8, 8, 12, 0.9);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-family: var(--art-font-main, sans-serif);
+
+  .success-backdrop-glow {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    background: radial-gradient(circle, rgba(var(--art-primary-rgb, 255, 140, 0), 0.15) 0%, rgba(0,0,0,0) 70%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 1;
+    filter: blur(40px);
+  }
+
+  .success-card {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .animation-portal-frame {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  // --- GLOBE LOADER WRAPPER ---
+  .globe-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    
+    .globe-loader-container {
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }
+
+  // --- CHECKMARK SUCCESS ANIMATION STYLES ---
+  .checkmark-container {
+    width: 85px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: scale-up-check 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+
+    .checkmark-svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .checkmark-circle {
+      stroke-dasharray: 166;
+      stroke-dashoffset: 166;
+      stroke: var(--art-primary, #ff8c00);
+      stroke-width: 3.5;
+      stroke-miterlimit: 10;
+      fill: none;
+      animation: draw-circle 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+    }
+
+    .checkmark-check {
+      stroke-dasharray: 48;
+      stroke-dashoffset: 48;
+      stroke: var(--art-primary, #ff8c00);
+      stroke-width: 4.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+      animation: draw-check 0.35s cubic-bezier(0.65, 0, 0.45, 1) 0.6s forwards;
+    }
+  }
+
+  @keyframes scale-up-check {
+    from {
+      transform: scale(0.6);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  @keyframes draw-circle {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  @keyframes draw-check {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  // --- TEXT ANIMATIONS ---
+  .text-frame {
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .loading-text, .launching-text {
+    font-family: var(--art-font-bold, sans-serif);
+    color: var(--art-primary, #ff8c00);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    margin: 0;
+    text-shadow: 0 0 15px rgba(var(--art-primary-rgb, 255, 140, 0), 0.25);
+  }
+
+  .success-content {
+    animation: fade-in-up 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    opacity: 0;
+    transform: translateY(10px);
+
+    .success-header {
+      font-family: var(--art-font-bold, sans-serif);
+      color: #fff;
+      font-size: 1.4rem;
+      margin: 0 0 6px 0;
+      letter-spacing: 1px;
+    }
+
+    .success-subtext {
+      color: #777;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin: 0;
+    }
+  }
+
+  @keyframes fade-in-up {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

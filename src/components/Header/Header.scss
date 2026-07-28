@@ -1,0 +1,112 @@
+.landing-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, transparent 100%);
+  pointer-events: auto;
+
+  .landing-logo {
+    a {
+      font-family: var(--font-outfit, "Outfit", sans-serif);
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #fff;
+      text-decoration: none;
+      letter-spacing: 0.5px;
+      transition: opacity 0.2s ease;
+
+      &:hover {
+        opacity: 0.85;
+      }
+    }
+
+    .logo-accent {
+      color: #22d3ee;
+    }
+  }
+
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .header-link {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 1rem;
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: all 0.25s ease;
+    font-family: var(--font-outfit, "Outfit", sans-serif);
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+    }
+
+    &.search-btn {
+      padding: 0.5rem 0.7rem;
+
+      .header-icon {
+        font-size: 1.15rem;
+      }
+    }
+
+    &.create-store {
+      background: rgba(34, 211, 238, 0.15);
+      border: 1px solid rgba(34, 211, 238, 0.3);
+      color: #22d3ee;
+
+      &:hover {
+        background: rgba(34, 211, 238, 0.25);
+        border-color: rgba(34, 211, 238, 0.5);
+      }
+    }
+
+    &.login {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.15);
+        border-color: rgba(255, 255, 255, 0.3);
+      }
+    }
+  }
+
+  .header-icon {
+    font-size: 1rem;
+    flex-shrink: 0;
+  }
+
+  .header-text {
+    white-space: nowrap;
+  }
+
+  @media (max-width: 600px) {
+    padding: 0.75rem 1rem;
+
+    .landing-logo a {
+      font-size: 1.3rem;
+    }
+
+    .header-text {
+      display: none;
+    }
+
+    .header-link {
+      padding: 0.5rem 0.6rem;
+    }
+  }
+}

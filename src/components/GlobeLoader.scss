@@ -1,0 +1,69 @@
+.globe-loader-container {
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--globe-bg, #FAF9F6);
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.globe-svg {
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+
+    .whirl-arc-1 {
+        transform-origin: 25px 25px;
+        animation: spin-clockwise 3s linear infinite;
+    }
+
+    .whirl-arc-2 {
+        transform-origin: 25px 25px;
+        animation: spin-counter-clockwise 3.5s linear infinite;
+    }
+
+    .globe-spinning-group {
+        animation: spin-continents 5s linear infinite;
+    }
+}
+
+@keyframes spin-clockwise {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin-counter-clockwise {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes spin-continents {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-45px, 0, 0);
+    }
+}
+
+.globe-loader-container.transparent-globe {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    width: 100%;
+    height: 100%;
+}

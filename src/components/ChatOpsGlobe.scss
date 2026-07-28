@@ -1,0 +1,56 @@
+.chatops-globe-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.globe-svg-chatops {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+
+  .whirl-arc-1-chatops {
+    transform-origin: 25px 25px;
+    animation: spin-clockwise-chatops 3s linear infinite;
+  }
+
+  .whirl-arc-2-chatops {
+    transform-origin: 25px 25px;
+    animation: spin-counter-clockwise-chatops 3.5s linear infinite;
+  }
+
+  .globe-spinning-group-chatops {
+    animation: spin-continents-chatops 5s linear infinite;
+  }
+}
+
+@keyframes spin-clockwise-chatops {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-counter-clockwise-chatops {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes spin-continents-chatops {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-45px, 0, 0);
+  }
+}

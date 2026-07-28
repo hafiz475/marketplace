@@ -1,0 +1,1102 @@
+{
+  "profile": {
+    "profile": {
+      "_id": "6a656cbe05b56d92208a1fc2",
+      "name": "Hafiz",
+      "role": "seller",
+      "phoneNumber": {
+        "countryCode": "+91",
+        "iso2": "IN",
+        "phoneNumber": "8754274815"
+      },
+      "store": {
+        "storeName": "aerospace",
+        "storeImage": "",
+        "businessCategory": "Core Business Partners",
+        "partnerTypes": [
+          "Supplier",
+          "Retailer"
+        ],
+        "location": {
+          "latitude": 43.569926631638005,
+          "longitude": 142.71919389092602,
+          "address": "大椴林道, Biei, Kamikawa County, Kamikawa Subprefecture, Hokkaido Prefecture, Hokkaido Region, Japan"
+        },
+        "country": {
+          "iso2": "JP",
+          "name": "Japan",
+          "countryCode": "+81"
+        },
+        "taxNumber": "",
+        "aboutCompany": "",
+        "socialProfiles": {
+          "instagram": "",
+          "youtube": "",
+          "x": "",
+          "facebook": "",
+          "googleBusiness": "",
+          "commentLink": "",
+          "tiktok": "",
+          "threads": "",
+          "linkedIn": "",
+          "whatsapp": {
+            "countryCode": "",
+            "iso2": "",
+            "phoneNumber": ""
+          },
+          "telegram": {
+            "countryCode": "",
+            "iso2": "",
+            "phoneNumber": ""
+          }
+        },
+        "bankDetails": [],
+        "storeId": "09850331-be9f-4efa-9a4a-be5600c3eda2",
+        "profileRating": 0,
+        "uiPreferences": {
+          "deliveryMaps": {}
+        }
+      },
+      "inApps": {
+        "themesAvailable": [
+          "default"
+        ],
+        "availablePdfThemes": [
+          "classic"
+        ],
+        "tokens": 0,
+        "health": 0,
+        "selectedTheme": "default",
+        "selectedPdfTheme": "classic"
+      },
+      "profileRating": 20,
+      "connectionsCount": 0,
+      "totalTurnover": 0
+    }
+  },
+  "products": {
+    "items": [
+      {
+        "_id": "6a6576468f5b475f7fed942f",
+        "itemId": "a742f5d3-f51d-48fa-b0d6-ed6e468ddcfb",
+        "company": "aerospace",
+        "name": "UltraHD 4K Curved OLED Display Monitor (32-Inch) (aerospace)",
+        "description": "Professional grade 4K OLED monitor with 144Hz refresh rate, 99% DCI-P3 color accuracy, and USB-C Thunderbolt power delivery.",
+        "industry": [
+          "Electronics",
+          "IT Hardware"
+        ],
+        "itemType": "product",
+        "duration": "",
+        "serviceCategory": "",
+        "location": "",
+        "quantity": 85,
+        "unit": "pc",
+        "reorderLevel": 15,
+        "salePrice": 750,
+        "currency": {
+          "code": "USD",
+          "symbol": "$",
+          "iso2": "US",
+          "countryCode": "+1"
+        },
+        "taxEntries": [],
+        "images": [],
+        "tags": [
+          {
+            "tagId": "81642baf-1b5f-4872-a2c3-99d56d70e36f",
+            "name": "High Tech",
+            "icon": ":desktop_computer:"
+          },
+          {
+            "tagId": "44b7419f-602f-411a-9fc9-5446f3a3816a",
+            "name": "OLED 4K",
+            "icon": ":sparkles:"
+          }
+        ],
+        "delivery": {
+          "available": true,
+          "nationalConfigId": "",
+          "internationalConfigId": "",
+          "suppliers": [],
+          "operationalPartners": [],
+          "configs": {
+            "available": true,
+            "national": [],
+            "international": []
+          }
+        },
+        "createdAt": "2026-07-25T14:51:50.854Z",
+        "updatedAt": "2026-07-25T14:51:50.854Z",
+        "type": "product",
+        "totalRate": 750,
+        "taxPercentage": 0
+      },
+      {
+        "_id": "6a6576468f5b475f7fed9430",
+        "itemId": "9a5c29c1-6f67-416a-8a82-c6796baab703",
+        "company": "aerospace",
+        "name": "Premium Organic Espresso Coffee Beans (1kg Bag) (aerospace)",
+        "description": "Single-origin shade-grown 100% Arabica coffee beans slowly roasted for rich crema and dark chocolate aroma.",
+        "industry": [
+          "Food & Beverage",
+          "Gourmet"
+        ],
+        "itemType": "product",
+        "duration": "",
+        "serviceCategory": "",
+        "location": "",
+        "quantity": 450,
+        "unit": "kg",
+        "reorderLevel": 50,
+        "salePrice": 28,
+        "currency": {
+          "code": "EUR",
+          "symbol": "€",
+          "iso2": "DE",
+          "countryCode": "+49"
+        },
+        "taxEntries": [],
+        "images": [],
+        "tags": [
+          {
+            "tagId": "d112716a-3cbe-493b-b3bd-9c5a84a5d1cd",
+            "name": "100% Arabica",
+            "icon": ":coffee:"
+          },
+          {
+            "tagId": "66302d61-0a7e-49bf-b6eb-aa5d4a5a6372",
+            "name": "Organic",
+            "icon": ":leaves:"
+          }
+        ],
+        "delivery": {
+          "available": true,
+          "nationalConfigId": "",
+          "internationalConfigId": "",
+          "suppliers": [],
+          "operationalPartners": [],
+          "configs": {
+            "available": true,
+            "national": [],
+            "international": []
+          }
+        },
+        "createdAt": "2026-07-22T19:39:50.854Z",
+        "updatedAt": "2026-07-22T19:39:50.854Z",
+        "type": "product",
+        "totalRate": 28,
+        "taxPercentage": 0
+      },
+      {
+        "_id": "6a6576468f5b475f7fed9431",
+        "itemId": "37ae1033-b94c-4714-8de9-8c7ea2a9ce40",
+        "company": "aerospace",
+        "name": "Ergonomic Mesh Executive Swivel Chair (aerospace)",
+        "description": "High-back mesh executive office chair featuring dynamic lumbar support, 3D adjustable armrests, and synchronized tilt mechanism.",
+        "industry": [
+          "Furniture",
+          "Office Automation"
+        ],
+        "itemType": "product",
+        "duration": "",
+        "serviceCategory": "",
+        "location": "",
+        "quantity": 120,
+        "unit": "pc",
+        "reorderLevel": 20,
+        "salePrice": 18500,
+        "currency": {
+          "code": "INR",
+          "symbol": "₹",
+          "iso2": "IN",
+          "countryCode": "+91"
+        },
+        "taxEntries": [],
+        "images": [],
+        "tags": [
+          {
+            "tagId": "5cea7423-b4b0-433f-ac75-0040cca32988",
+            "name": "Ergonomic",
+            "icon": ":chair:"
+          },
+          {
+            "tagId": "1315daaa-e7ab-4efe-bea3-68656fae8cdb",
+            "name": "Lumbar Support",
+            "icon": ":person_in_lotus_position:"
+          }
+        ],
+        "delivery": {
+          "available": true,
+          "nationalConfigId": "",
+          "internationalConfigId": "",
+          "suppliers": [],
+          "operationalPartners": [],
+          "configs": {
+            "available": true,
+            "national": [],
+            "international": []
+          }
+        },
+        "createdAt": "2026-07-20T00:27:50.854Z",
+        "updatedAt": "2026-07-20T00:27:50.854Z",
+        "type": "product",
+        "totalRate": 18500,
+        "taxPercentage": 0
+      },
+      {
+        "_id": "6a6576468f5b475f7fed9432",
+        "itemId": "b65641a2-76dc-4c3d-b360-a8f1d728fb2a",
+        "company": "aerospace",
+        "name": "Industrial Solar Hybrid Inverter System (10kW) (aerospace)",
+        "description": "High-efficiency pure sine wave solar inverter with MPPT charge controller and smart grid tie capabilities.",
+        "industry": [
+          "Renewable Energy",
+          "Electrical"
+        ],
+        "itemType": "product",
+        "duration": "",
+        "serviceCategory": "",
+        "location": "",
+        "quantity": 24,
+        "unit": "set",
+        "reorderLevel": 5,
+        "salePrice": 14500,
+        "currency": {
+          "code": "AED",
+          "symbol": "د.إ",
+          "iso2": "AE",
+          "countryCode": "+971"
+        },
+        "taxEntries": [],
+        "images": [],
+        "tags": [
+          {
+            "tagId": "979561ee-8bba-4295-b60e-f934fbbf7ac7",
+            "name": "Solar Hybrid",
+            "icon": ":sunny:"
+          },
+          {
+            "tagId": "187ae1c3-2ce3-4b04-b71b-540ede2a2965",
+            "name": "LiFePO4",
+            "icon": ":battery:"
+          }
+        ],
+        "delivery": {
+          "available": true,
+          "nationalConfigId": "",
+          "internationalConfigId": "",
+          "suppliers": [],
+          "operationalPartners": [],
+          "configs": {
+            "available": true,
+            "national": [],
+            "international": []
+          }
+        },
+        "createdAt": "2026-07-17T05:15:50.854Z",
+        "updatedAt": "2026-07-17T05:15:50.854Z",
+        "type": "product",
+        "totalRate": 14500,
+        "taxPercentage": 0
+      },
+      {
+        "_id": "6a6576468f5b475f7fed9433",
+        "itemId": "e5d82fc6-5dd8-47bb-af98-231d02a0f7b4",
+        "company": "aerospace",
+        "name": "Precision CNC Stainless Steel Fasteners (Box of 1000) (aerospace)",
+        "description": "Marine-grade SS316 hex bolts and nuts engineered for heavy industrial machinery and structural steel assembly.",
+        "industry": [
+          "Hardware",
+          "Manufacturing"
+        ],
+        "itemType": "product",
+        "duration": "",
+        "serviceCategory": "",
+        "location": "",
+        "quantity": 600,
+        "unit": "box",
+        "reorderLevel": 100,
+        "salePrice": 240,
+        "currency": {
+          "code": "SGD",
+          "symbol": "S$",
+          "iso2": "SG",
+          "countryCode": "+65"
+        },
+        "taxEntries": [],
+        "images": [],
+        "tags": [
+          {
+            "tagId": "78268c4e-40c5-4ae1-8d75-c3c6cc06a0de",
+            "name": "Grade 316 SS",
+            "icon": ":nut_and_bolt:"
+          },
+          {
+            "tagId": "51e4a395-cb91-4ec5-a286-7c190a421bf7",
+            "name": "ISO Certified",
+            "icon": ":page_facing_up:"
+          }
+        ],
+        "delivery": {
+          "available": true,
+          "nationalConfigId": "",
+          "internationalConfigId": "",
+          "suppliers": [],
+          "operationalPartners": [],
+          "configs": {
+            "available": true,
+            "national": [],
+            "international": []
+          }
+        },
+        "createdAt": "2026-07-14T10:03:50.854Z",
+        "updatedAt": "2026-07-14T10:03:50.854Z",
+        "type": "product",
+        "totalRate": 240,
+        "taxPercentage": 0
+      }
+    ],
+    "page": 0,
+    "size": 24,
+    "total": 5,
+    "categories": [],
+    "tags": [
+      {
+        "name": "Customs Audit",
+        "icon": ":passport_control:",
+        "itemType": "service"
+      },
+      {
+        "name": "Organic",
+        "icon": ":leaves:",
+        "itemType": "product"
+      },
+      {
+        "name": "REST API Sync",
+        "icon": ":arrows_counterclockwise:",
+        "itemType": "service"
+      },
+      {
+        "name": "Grade 316 SS",
+        "icon": ":nut_and_bolt:",
+        "itemType": "product"
+      },
+      {
+        "name": "Lumbar Support",
+        "icon": ":person_in_lotus_position:",
+        "itemType": "product"
+      },
+      {
+        "name": "Ergonomic",
+        "icon": ":chair:",
+        "itemType": "product"
+      },
+      {
+        "name": "SOC-2 Certified",
+        "icon": ":shield:",
+        "itemType": "service"
+      },
+      {
+        "name": "Solar Hybrid",
+        "icon": ":sunny:",
+        "itemType": "product"
+      },
+      {
+        "name": "High Tech",
+        "icon": ":desktop_computer:",
+        "itemType": "product"
+      },
+      {
+        "name": "24/7 Monitoring",
+        "icon": ":satellite_antenna:",
+        "itemType": "service"
+      },
+      {
+        "name": "ISO Certified",
+        "icon": ":page_facing_up:",
+        "itemType": "product"
+      },
+      {
+        "name": "Annual Contract",
+        "icon": ":memo:",
+        "itemType": "service"
+      },
+      {
+        "name": "SEO & PPC",
+        "icon": ":chart_with_upwards_trend:",
+        "itemType": "service"
+      },
+      {
+        "name": "LiFePO4",
+        "icon": ":battery:",
+        "itemType": "product"
+      },
+      {
+        "name": "Tariff Optimization",
+        "icon": ":globe_with_meridians:",
+        "itemType": "service"
+      },
+      {
+        "name": "OLED 4K",
+        "icon": ":sparkles:",
+        "itemType": "product"
+      },
+      {
+        "name": "100% Arabica",
+        "icon": ":coffee:",
+        "itemType": "product"
+      },
+      {
+        "name": "Penetration Testing",
+        "icon": ":lock:",
+        "itemType": "service"
+      },
+      {
+        "name": "Global Reach",
+        "icon": ":globe_with_meridians:",
+        "itemType": "service"
+      },
+      {
+        "name": "Machine Learning",
+        "icon": ":brain:",
+        "itemType": "service"
+      }
+    ],
+    "company": "aerospace"
+  },
+  "taggedProducts": {
+    "items": [
+      {
+        "_id": "6a6576468f5b475f7fed9433",
+        "itemId": "e5d82fc6-5dd8-47bb-af98-231d02a0f7b4",
+        "company": "aerospace",
+        "name": "Precision CNC Stainless Steel Fasteners (Box of 1000) (aerospace)",
+        "description": "Marine-grade SS316 hex bolts and nuts engineered for heavy industrial machinery and structural steel assembly.",
+        "industry": [
+          "Hardware",
+          "Manufacturing"
+        ],
+        "itemType": "product",
+        "duration": "",
+        "serviceCategory": "",
+        "location": "",
+        "quantity": 600,
+        "unit": "box",
+        "reorderLevel": 100,
+        "salePrice": 240,
+        "currency": {
+          "code": "SGD",
+          "symbol": "S$",
+          "iso2": "SG",
+          "countryCode": "+65"
+        },
+        "taxEntries": [],
+        "images": [],
+        "tags": [
+          {
+            "tagId": "78268c4e-40c5-4ae1-8d75-c3c6cc06a0de",
+            "name": "Grade 316 SS",
+            "icon": "🔩"
+          },
+          {
+            "tagId": "51e4a395-cb91-4ec5-a286-7c190a421bf7",
+            "name": "ISO Certified",
+            "icon": "📄"
+          }
+        ],
+        "delivery": {
+          "available": true,
+          "nationalConfigId": "",
+          "internationalConfigId": "",
+          "suppliers": [],
+          "operationalPartners": [],
+          "configs": {
+            "available": true,
+            "national": [],
+            "international": []
+          }
+        },
+        "createdAt": "2026-07-14T10:03:50.854Z",
+        "updatedAt": "2026-07-14T10:03:50.854Z",
+        "type": "product",
+        "totalRate": 240,
+        "taxPercentage": 0
+      }
+    ],
+    "page": 0,
+    "size": 24,
+    "total": 1,
+    "categories": [],
+    "tags": [
+      {
+        "name": "Penetration Testing",
+        "icon": "🔒",
+        "itemType": "service"
+      },
+      {
+        "name": "Solar Hybrid",
+        "icon": "☀️",
+        "itemType": "product"
+      },
+      {
+        "name": "Global Reach",
+        "icon": "🌐",
+        "itemType": "service"
+      },
+      {
+        "name": "Machine Learning",
+        "icon": "🧠",
+        "itemType": "service"
+      },
+      {
+        "name": "24/7 Monitoring",
+        "icon": "📡",
+        "itemType": "service"
+      },
+      {
+        "name": "Tariff Optimization",
+        "icon": "🌐",
+        "itemType": "service"
+      },
+      {
+        "name": "OLED 4K",
+        "icon": "✨",
+        "itemType": "product"
+      },
+      {
+        "name": "100% Arabica",
+        "icon": "☕",
+        "itemType": "product"
+      },
+      {
+        "name": "High Tech",
+        "icon": "🖥️",
+        "itemType": "product"
+      },
+      {
+        "name": "Annual Contract",
+        "icon": "📝",
+        "itemType": "service"
+      },
+      {
+        "name": "ISO Certified",
+        "icon": "📄",
+        "itemType": "product"
+      },
+      {
+        "name": "SEO & PPC",
+        "icon": "📈",
+        "itemType": "service"
+      },
+      {
+        "name": "LiFePO4",
+        "icon": "🔋",
+        "itemType": "product"
+      },
+      {
+        "name": "Customs Audit",
+        "icon": "🛂",
+        "itemType": "service"
+      },
+      {
+        "name": "Organic",
+        "icon": "🍃",
+        "itemType": "product"
+      },
+      {
+        "name": "REST API Sync",
+        "icon": "🔄",
+        "itemType": "service"
+      },
+      {
+        "name": "SOC-2 Certified",
+        "icon": "🛡️",
+        "itemType": "service"
+      },
+      {
+        "name": "Lumbar Support",
+        "icon": "🧘",
+        "itemType": "product"
+      },
+      {
+        "name": "Ergonomic",
+        "icon": "🪑",
+        "itemType": "product"
+      },
+      {
+        "name": "Grade 316 SS",
+        "icon": "🔩",
+        "itemType": "product"
+      }
+    ],
+    "company": "aerospace"
+  },
+  "services": {
+    "items": [
+      {
+        "_id": "6a6576468f5b475f7fed9434",
+        "itemId": "46e4608c-a6b1-4f66-87ad-af0f22956d17",
+        "company": "aerospace",
+        "name": "Enterprise Cloud Infrastructure & Security Audit (aerospace)",
+        "description": "Comprehensive 3-week penetration testing, vulnerability assessment, and SOC-2 compliance audit for AWS/Azure environments.",
+        "industry": [
+          "Information Technology",
+          "Cloud Computing"
+        ],
+        "itemType": "service",
+        "duration": "3 Weeks",
+        "serviceCategory": "Cybersecurity",
+        "location": "",
+        "quantity": 1,
+        "unit": "audit",
+        "reorderLevel": 0,
+        "salePrice": 4200,
+        "currency": {
+          "code": "GBP",
+          "symbol": "£",
+          "iso2": "GB",
+          "countryCode": "+44"
+        },
+        "taxEntries": [],
+        "images": [],
+        "tags": [
+          {
+            "tagId": "983afe9e-4f58-4104-bc9c-0abf9de0c66d",
+            "name": "Penetration Testing",
+            "icon": "🔒"
+          },
+          {
+            "tagId": "73d9bdc7-68db-4a88-b0f6-fd8c2aa35a1d",
+            "name": "SOC-2 Certified",
+            "icon": "🛡️"
+          }
+        ],
+        "delivery": {
+          "available": true,
+          "nationalConfigId": "",
+          "internationalConfigId": "",
+          "suppliers": [],
+          "operationalPartners": [],
+          "configs": {
+            "available": true,
+            "national": [],
+            "international": []
+          }
+        },
+        "createdAt": "2026-07-11T14:51:50.854Z",
+        "updatedAt": "2026-07-11T14:51:50.854Z",
+        "type": "service",
+        "totalRate": 4200,
+        "taxPercentage": 0
+      },
+      {
+        "_id": "6a6576468f5b475f7fed9435",
+        "itemId": "7d519a41-fbc5-41da-8c3e-70cade0a6fb1",
+        "company": "aerospace",
+        "name": "B2B Global Trade & Customs Compliance Advisory (aerospace)",
+        "description": "Monthly retainer consulting for international tariff optimization, customs auditing, and cross-border trade legalities.",
+        "industry": [
+          "International Trade",
+          "Legal"
+        ],
+        "itemType": "service",
+        "duration": "Monthly Retainer",
+        "serviceCategory": "Legal & Trade",
+        "location": "",
+        "quantity": 1,
+        "unit": "month",
+        "reorderLevel": 0,
+        "salePrice": 3500,
+        "currency": {
+          "code": "USD",
+          "symbol": "$",
+          "iso2": "US",
+          "countryCode": "+1"
+        },
+        "taxEntries": [],
+        "images": [],
+        "tags": [
+          {
+            "tagId": "24c038cf-b2a9-437f-ae82-147599d36364",
+            "name": "Tariff Optimization",
+            "icon": "🌐"
+          },
+          {
+            "tagId": "f7020fbe-29b1-4498-97cc-90b8d02b3046",
+            "name": "Customs Audit",
+            "icon": "🛂"
+          }
+        ],
+        "delivery": {
+          "available": true,
+          "nationalConfigId": "",
+          "internationalConfigId": "",
+          "suppliers": [],
+          "operationalPartners": [],
+          "configs": {
+            "available": true,
+            "national": [],
+            "international": []
+          }
+        },
+        "createdAt": "2026-07-08T19:39:50.854Z",
+        "updatedAt": "2026-07-08T19:39:50.854Z",
+        "type": "service",
+        "totalRate": 3500,
+        "taxPercentage": 0
+      },
+      {
+        "_id": "6a6576468f5b475f7fed9436",
+        "itemId": "8ca3eb04-a790-414f-8822-6fbd81c776e5",
+        "company": "aerospace",
+        "name": "AI-Powered Automated Inventory & ERP Integration (aerospace)",
+        "description": "Custom turnkey integration connecting warehouse POS, e-commerce storefronts, and SAP/Oracle ERP with real-time stock sync.",
+        "industry": [
+          "SaaS",
+          "Supply Chain Technology"
+        ],
+        "itemType": "service",
+        "duration": "2 Weeks",
+        "serviceCategory": "Software Automation",
+        "location": "",
+        "quantity": 1,
+        "unit": "project",
+        "reorderLevel": 0,
+        "salePrice": 125000,
+        "currency": {
+          "code": "INR",
+          "symbol": "₹",
+          "iso2": "IN",
+          "countryCode": "+91"
+        },
+        "taxEntries": [],
+        "images": [],
+        "tags": [
+          {
+            "tagId": "5c64449a-99c5-4bd4-8947-0cdc421f613b",
+            "name": "REST API Sync",
+            "icon": "🔄"
+          },
+          {
+            "tagId": "87a1495a-332d-4066-9dad-3d187d9c5790",
+            "name": "Machine Learning",
+            "icon": "🧠"
+          }
+        ],
+        "delivery": {
+          "available": true,
+          "nationalConfigId": "",
+          "internationalConfigId": "",
+          "suppliers": [],
+          "operationalPartners": [],
+          "configs": {
+            "available": true,
+            "national": [],
+            "international": []
+          }
+        },
+        "createdAt": "2026-07-06T00:27:50.854Z",
+        "updatedAt": "2026-07-06T00:27:50.854Z",
+        "type": "service",
+        "totalRate": 125000,
+        "taxPercentage": 0
+      },
+      {
+        "_id": "6a6576468f5b475f7fed9437",
+        "itemId": "c3d8456d-8dfe-4608-a368-2cccc968006f",
+        "company": "aerospace",
+        "name": "Commercial Solar Micro-Grid Maintenance & Repair (aerospace)",
+        "description": "Annual preventive maintenance contract for commercial rooftop solar arrays, inverter diagnostics, and cleaning.",
+        "industry": [
+          "Green Energy",
+          "Facilities"
+        ],
+        "itemType": "service",
+        "duration": "1 Year",
+        "serviceCategory": "Utility Services",
+        "location": "",
+        "quantity": 1,
+        "unit": "contract",
+        "reorderLevel": 0,
+        "salePrice": 28000,
+        "currency": {
+          "code": "SAR",
+          "symbol": "﷼",
+          "iso2": "SA",
+          "countryCode": "+966"
+        },
+        "taxEntries": [],
+        "images": [],
+        "tags": [
+          {
+            "tagId": "b8c3dd0c-08f0-410c-94cf-793439db1948",
+            "name": "24/7 Monitoring",
+            "icon": "📡"
+          },
+          {
+            "tagId": "bb892804-32b5-409e-af99-77af1ffff0ae",
+            "name": "Annual Contract",
+            "icon": "📝"
+          }
+        ],
+        "delivery": {
+          "available": true,
+          "nationalConfigId": "",
+          "internationalConfigId": "",
+          "suppliers": [],
+          "operationalPartners": [],
+          "configs": {
+            "available": true,
+            "national": [],
+            "international": []
+          }
+        },
+        "createdAt": "2026-07-03T05:15:50.854Z",
+        "updatedAt": "2026-07-03T05:15:50.854Z",
+        "type": "service",
+        "totalRate": 28000,
+        "taxPercentage": 0
+      },
+      {
+        "_id": "6a6576468f5b475f7fed9438",
+        "itemId": "e30ef1e6-0da3-4afc-9916-622a16c91330",
+        "company": "aerospace",
+        "name": "Global Brand Marketing & Digital PR Campaign (aerospace)",
+        "description": "Quarterly multi-channel digital PR, SEO optimization, and press release distribution across premium business publications.",
+        "industry": [
+          "Digital Marketing",
+          "Media"
+        ],
+        "itemType": "service",
+        "duration": "Quarterly",
+        "serviceCategory": "Digital Marketing",
+        "location": "",
+        "quantity": 1,
+        "unit": "campaign",
+        "reorderLevel": 0,
+        "salePrice": 12000,
+        "currency": {
+          "code": "CAD",
+          "symbol": "CA$",
+          "iso2": "CA",
+          "countryCode": "+1"
+        },
+        "taxEntries": [],
+        "images": [],
+        "tags": [
+          {
+            "tagId": "fe7016fc-cecd-4893-be59-ca9135ab78cc",
+            "name": "SEO & PPC",
+            "icon": "📈"
+          },
+          {
+            "tagId": "256b7ed2-7501-43e7-b658-9fe05a9357a7",
+            "name": "Global Reach",
+            "icon": "🌐"
+          }
+        ],
+        "delivery": {
+          "available": true,
+          "nationalConfigId": "",
+          "internationalConfigId": "",
+          "suppliers": [],
+          "operationalPartners": [],
+          "configs": {
+            "available": true,
+            "national": [],
+            "international": []
+          }
+        },
+        "createdAt": "2026-06-30T10:03:50.854Z",
+        "updatedAt": "2026-06-30T10:03:50.854Z",
+        "type": "service",
+        "totalRate": 12000,
+        "taxPercentage": 0
+      }
+    ],
+    "page": 0,
+    "size": 24,
+    "total": 5,
+    "categories": [],
+    "tags": [
+      {
+        "name": "ISO Certified",
+        "icon": "📄",
+        "itemType": "product"
+      },
+      {
+        "name": "Tariff Optimization",
+        "icon": "🌐",
+        "itemType": "service"
+      },
+      {
+        "name": "100% Arabica",
+        "icon": "☕",
+        "itemType": "product"
+      },
+      {
+        "name": "OLED 4K",
+        "icon": "✨",
+        "itemType": "product"
+      },
+      {
+        "name": "Machine Learning",
+        "icon": "🧠",
+        "itemType": "service"
+      },
+      {
+        "name": "24/7 Monitoring",
+        "icon": "📡",
+        "itemType": "service"
+      },
+      {
+        "name": "Penetration Testing",
+        "icon": "🔒",
+        "itemType": "service"
+      },
+      {
+        "name": "Global Reach",
+        "icon": "🌐",
+        "itemType": "service"
+      },
+      {
+        "name": "Ergonomic",
+        "icon": "🪑",
+        "itemType": "product"
+      },
+      {
+        "name": "Solar Hybrid",
+        "icon": "☀️",
+        "itemType": "product"
+      },
+      {
+        "name": "Organic",
+        "icon": "🍃",
+        "itemType": "product"
+      },
+      {
+        "name": "Customs Audit",
+        "icon": "🛂",
+        "itemType": "service"
+      },
+      {
+        "name": "Lumbar Support",
+        "icon": "🧘",
+        "itemType": "product"
+      },
+      {
+        "name": "REST API Sync",
+        "icon": "🔄",
+        "itemType": "service"
+      },
+      {
+        "name": "Grade 316 SS",
+        "icon": "🔩",
+        "itemType": "product"
+      },
+      {
+        "name": "SOC-2 Certified",
+        "icon": "🛡️",
+        "itemType": "service"
+      },
+      {
+        "name": "LiFePO4",
+        "icon": "🔋",
+        "itemType": "product"
+      },
+      {
+        "name": "SEO & PPC",
+        "icon": "📈",
+        "itemType": "service"
+      },
+      {
+        "name": "Annual Contract",
+        "icon": "📝",
+        "itemType": "service"
+      },
+      {
+        "name": "High Tech",
+        "icon": "🖥️",
+        "itemType": "product"
+      }
+    ],
+    "company": "aerospace"
+  },
+  "product": {
+    "item": {
+      "_id": "6a6576468f5b475f7fed942f",
+      "itemId": "a742f5d3-f51d-48fa-b0d6-ed6e468ddcfb",
+      "company": "aerospace",
+      "name": "UltraHD 4K Curved OLED Display Monitor (32-Inch) (aerospace)",
+      "description": "Professional grade 4K OLED monitor with 144Hz refresh rate, 99% DCI-P3 color accuracy, and USB-C Thunderbolt power delivery.",
+      "industry": [
+        "Electronics",
+        "IT Hardware"
+      ],
+      "itemType": "product",
+      "duration": "",
+      "serviceCategory": "",
+      "location": "",
+      "quantity": 85,
+      "unit": "pc",
+      "reorderLevel": 15,
+      "salePrice": 750,
+      "currency": {
+        "code": "USD",
+        "symbol": "$",
+        "iso2": "US",
+        "countryCode": "+1"
+      },
+      "taxEntries": [],
+      "images": [],
+      "tags": [
+        {
+          "tagId": "81642baf-1b5f-4872-a2c3-99d56d70e36f",
+          "name": "High Tech",
+          "icon": "🖥️"
+        },
+        {
+          "tagId": "44b7419f-602f-411a-9fc9-5446f3a3816a",
+          "name": "OLED 4K",
+          "icon": "✨"
+        }
+      ],
+      "delivery": {
+        "available": true,
+        "nationalConfigId": "",
+        "internationalConfigId": "",
+        "suppliers": [],
+        "operationalPartners": [],
+        "configs": {
+          "available": true,
+          "national": [],
+          "international": []
+        }
+      },
+      "createdAt": "2026-07-25T14:51:50.854Z",
+      "updatedAt": "2026-07-25T14:51:50.854Z",
+      "type": "product",
+      "totalRate": 750,
+      "taxPercentage": 0,
+      "inStock": true
+    }
+  },
+  "chatOps": {
+    "companySlug": "aerospace",
+    "items": [
+      {
+        "itemId": "a742f5d3-f51d-48fa-b0d6-ed6e468ddcfb",
+        "name": "UltraHD 4K Curved OLED Display Monitor (32-Inch) (aerospace)",
+        "quantity": 1,
+        "price": 750,
+        "sku": "",
+        "itemType": "product"
+      }
+    ],
+    "messageTemplate": "Product viewed: UltraHD 4K Curved OLED Display Monitor (32-Inch) (aerospace)",
+    "communicationChannel": "view",
+    "source": "website",
+    "isClick": true
+  }
+}

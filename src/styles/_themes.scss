@@ -1,0 +1,387 @@
+// ===========================================
+// THEME DEFINITIONS
+// ===========================================
+// Each theme defines CSS custom properties for:
+// - Primary accent color
+// - Background colors
+// - Text colors
+// - Font families
+// ===========================================
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;700&family=Michroma&family=Nunito:wght@400;600;800&family=Outfit:wght@300;400;600;800&family=Poppins:wght@400;500;700&family=Quicksand:wght@400;500;700&family=Rubik:wght@400;500;700&family=Sora:wght@400;600;700&family=Space+Grotesk:wght@400;500;700&display=swap');
+
+:root, [class*="theme-"], .automotive-theme {
+    --art-success: #00c853;
+    --art-success-rgb: 0, 200, 83;
+    --art-danger: #ff3d00;
+    --art-danger-rgb: 255, 61, 0;
+}
+
+// ===========================================
+// DEFAULT THEME (Dark Warm Orange - Automotive)
+// ===========================================
+.theme-default,
+.automotive-theme:not([class*="theme-"]) {
+    --art-bg: #0a0a0c;
+    --art-surface: #121215;
+    --art-primary: #ff8c00;
+    --art-primary-rgb: 255, 140, 0;
+    --art-warm: #ffcc33;
+    --art-text: #f0f0f0;
+    --art-text-muted: #88888b;
+    --art-glass: rgba(18, 18, 21, 0.8);
+    --art-font-main: 'Outfit', sans-serif;
+    --art-font-title: 'Outfit', sans-serif;
+    --art-font-bold: 'Bebas Neue', cursive;
+    --art-picker-filter: invert(0.7) sepia(1) saturate(5) hue-rotate(5deg) brightness(1.2);
+}
+
+// ===========================================
+// CHRONA THEME (Cyan/Electric Blue)
+// ===========================================
+.theme-chrona {
+    --art-bg: #0d1117;
+    --art-surface: #161b22;
+    --art-primary: #00d4ff;
+    --art-primary-rgb: 0, 212, 255;
+    --art-warm: #7dd3fc;
+    --art-text: #e6edf3;
+    --art-text-muted: #8b949e;
+    --art-glass: rgba(22, 27, 34, 0.85);
+    --art-font-main: 'Inter', sans-serif;
+    --art-font-title: 'Inter', sans-serif;
+    --art-font-bold: 'Inter', sans-serif;
+    --art-picker-filter: invert(0.5) sepia(1) saturate(5) hue-rotate(180deg);
+}
+
+// ===========================================
+// NEXA THEME (Purple/Violet)
+// ===========================================
+.theme-nexa {
+    --art-bg: #0f0f23;
+    --art-surface: #1a1a2e;
+    --art-primary: #a855f7;
+    --art-primary-rgb: 168, 85, 247;
+    --art-warm: #c084fc;
+    --art-text: #f8fafc;
+    --art-text-muted: #94a3b8;
+    --art-glass: rgba(26, 26, 46, 0.85);
+    --art-font-main: 'Poppins', sans-serif;
+    --art-font-title: 'Poppins', sans-serif;
+    --art-font-bold: 'Poppins', sans-serif;
+    --art-picker-filter: invert(0.4) sepia(1) saturate(5) hue-rotate(250deg);
+}
+
+// ===========================================
+// GRIDLY THEME (Emerald Green)
+// ===========================================
+.theme-gridly {
+    --art-bg: #0d1b12;
+    --art-surface: #132218;
+    --art-primary: #10b981;
+    --art-primary-rgb: 16, 185, 129;
+    --art-warm: #34d399;
+    --art-text: #ecfdf5;
+    --art-text-muted: #6ee7b7;
+    --art-glass: rgba(19, 34, 24, 0.85);
+    --art-font-main: 'Space Grotesk', sans-serif;
+    --art-font-title: 'Space Grotesk', sans-serif;
+    --art-font-bold: 'Space Grotesk', sans-serif;
+    --art-picker-filter: invert(0.5) sepia(1) saturate(5) hue-rotate(100deg);
+}
+
+// ===========================================
+// MODUL THEME (Rose/Red)
+// ===========================================
+.theme-modul {
+    --art-bg: #18181b;
+    --art-surface: #27272a;
+    --art-primary: #f43f5e;
+    --art-primary-rgb: 244, 63, 94;
+    --art-warm: #fb7185;
+    --art-text: #fafafa;
+    --art-text-muted: #a1a1aa;
+    --art-glass: rgba(39, 39, 42, 0.85);
+    --art-font-main: 'DM Sans', sans-serif;
+    --art-font-title: 'DM Sans', sans-serif;
+    --art-font-bold: 'DM Sans', sans-serif;
+    --art-picker-filter: invert(0.3) sepia(1) saturate(5) hue-rotate(330deg);
+}
+
+// ===========================================
+// LAYER THEME (Blue)
+// ===========================================
+.theme-layer {
+    --art-bg: #020617;
+    --art-surface: #0f172a;
+    --art-primary: #3b82f6;
+    --art-primary-rgb: 59, 130, 246;
+    --art-warm: #60a5fa;
+    --art-text: #f1f5f9;
+    --art-text-muted: #94a3b8;
+    --art-glass: rgba(15, 23, 42, 0.85);
+    --art-font-main: 'Nunito', sans-serif;
+    --art-font-title: 'Nunito', sans-serif;
+    --art-font-bold: 'Outfit', sans-serif;
+    --art-picker-filter: invert(0.5) sepia(1) saturate(5) hue-rotate(190deg);
+}
+
+// ===========================================
+// UIX-SHOP THEME (Golden Yellow)
+// ===========================================
+.theme-uix-shop {
+    --art-bg: #1c1917;
+    --art-surface: #292524;
+    --art-primary: #eab308;
+    --art-primary-rgb: 234, 179, 8;
+    --art-warm: #facc15;
+    --art-text: #fef3c7;
+    --art-text-muted: #a8a29e;
+    --art-glass: rgba(41, 37, 36, 0.85);
+    --art-font-main: 'Rubik', sans-serif;
+    --art-font-title: 'Rubik', sans-serif;
+    --art-font-bold: 'Rubik', sans-serif;
+    --art-picker-filter: invert(0.5) sepia(1) saturate(5) hue-rotate(220deg);
+}
+
+// ===========================================
+// FRAMEX THEME (Teal)
+// ===========================================
+.theme-framex {
+    --art-bg: #042f2e;
+    --art-surface: #134e4a;
+    --art-primary: #14b8a6;
+    --art-primary-rgb: 20, 184, 166;
+    --art-warm: #2dd4bf;
+    --art-text: #ccfbf1;
+    --art-text-muted: #5eead4;
+    --art-glass: rgba(19, 78, 74, 0.85);
+    --art-font-main: 'Sora', sans-serif;
+    --art-font-title: 'Sora', sans-serif;
+    --art-font-bold: 'Sora', sans-serif;
+    --art-picker-filter: invert(0.4) sepia(1) saturate(5) hue-rotate(300deg);
+}
+
+// ===========================================
+// PIXELBUY THEME (Pink)
+// ===========================================
+.theme-pixelbuy {
+    --art-bg: #1e1b4b;
+    --art-surface: #312e81;
+    --art-primary: #ec4899;
+    --art-primary-rgb: 236, 72, 153;
+    --art-warm: #f472b6;
+    --art-text: #fce7f3;
+    --art-text-muted: #c4b5fd;
+    --art-glass: rgba(49, 46, 129, 0.85);
+    --art-font-main: 'Quicksand', sans-serif;
+    --art-font-title: 'Quicksand', sans-serif;
+    --art-font-bold: 'Quicksand', sans-serif;
+}
+
+// ===========================================
+// CARZMOTO THEME (White/Red - Light Mode)
+// ===========================================
+.theme-carzmoto {
+    --art-bg: #ffffff;
+    --art-surface: #f8f9fa;
+    --art-primary: #dc2626;
+    --art-primary-rgb: 220, 38, 38;
+    --art-warm: #ef4444;
+    --art-text: #1f2937;
+    --art-text-muted: #6b7280;
+    --art-glass: rgba(255, 255, 255, 0.9);
+    --art-font-main: 'DM Sans', sans-serif;
+    --art-font-title: 'DM Sans', sans-serif;
+    --art-font-bold: 'DM Sans', sans-serif;
+    --art-picker-filter: invert(0.2) sepia(1) saturate(5) hue-rotate(330deg) brightness(0.9);
+
+    // Light mode specific overrides
+    color-scheme: light;
+
+    // Floating icons need darker color for visibility
+    .industry-galaxy .floating-icon {
+        color: var(--art-primary);
+        opacity: 0.4;
+        filter: none;
+    }
+
+    // Background grid needs stronger lines on white
+    .auto-background-grid {
+        background-image:
+            linear-gradient(rgba(220, 38, 38, 0.08) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(220, 38, 38, 0.08) 1px, transparent 1px);
+    }
+
+    // Extremely Specific Override for Headers & Product Names
+    &.auto-card,
+    .auto-card,
+    &.art-product-card,
+    .art-product-card,
+    .product-detail-page.automotive-theme,
+    .public-cart-page.automotive-theme,
+    .card-info {
+
+        h1,
+        h2,
+        h3,
+        h4,
+        .product-name,
+        .art-product-name,
+        .art-product-title,
+        .section-title h2,
+        .description-section h3,
+        .variants-section h3,
+        .category-label,
+        .item-category,
+        .description-header,
+        .view-link,
+        .back-link {
+            color: var(--art-primary) !important;
+            -webkit-text-fill-color: var(--art-primary) !important;
+            background: none !important;
+            text-shadow: none !important;
+            filter: none !important;
+        }
+    }
+
+    // Cards need light background instead of dark
+    .auto-card,
+    .art-product-card {
+        background: var(--art-surface) !important;
+        border: 1px solid rgba(220, 38, 38, 0.15) !important;
+
+        .card-image-wrap,
+        .art-product-image-wrapper,
+        .main-image {
+            background: linear-gradient(135deg, #e5e7eb, #d1d5db) !important;
+
+            .placeholder-icon,
+            .placeholder-auto,
+            .placeholder-image {
+                color: var(--art-primary) !important;
+                opacity: 0.5 !important;
+            }
+        }
+
+        .card-info,
+        .art-product-details {
+            background: linear-gradient(to top, var(--art-surface), transparent) !important;
+
+            h3,
+            .product-name,
+            .art-product-title {
+                color: var(--art-text) !important;
+            }
+
+            .card-price,
+            .price-tag,
+            .art-product-price {
+                color: var(--art-text) !important;
+                background: rgba(255, 255, 255, 0.8) !important;
+                border-color: rgba(220, 38, 38, 0.3) !important;
+            }
+        }
+    }
+
+    // Social icons need proper color
+    .art-social-links .art-social-icon {
+        background: rgba(220, 38, 38, 0.1);
+        border-color: rgba(220, 38, 38, 0.2);
+        color: var(--art-primary);
+
+        &:hover {
+            background: var(--art-primary);
+            color: #fff;
+        }
+    }
+
+    // Hero text needs dark color
+    .hero-title,
+    .hero-title .brand-text {
+        color: var(--art-text) !important;
+        -webkit-text-fill-color: var(--art-text) !important;
+        background: none !important;
+    }
+
+    // Input fields for light mode
+    .input-group input,
+    .search-wrap input {
+        background: rgba(0, 0, 0, 0.03) !important;
+        border-color: rgba(0, 0, 0, 0.1) !important;
+        color: var(--art-text) !important;
+        color-scheme: light !important;
+    }
+
+    // Cart items need light background
+    .cart-item {
+        background: var(--art-surface) !important;
+        border-color: rgba(220, 38, 38, 0.1) !important;
+
+        .item-details h3,
+        .item-details .item-name {
+            color: var(--art-text) !important;
+        }
+
+        .item-actions .item-total {
+            color: var(--art-primary) !important;
+        }
+
+        .quantity-ctrl {
+            background: rgba(0, 0, 0, 0.05) !important;
+            border-color: rgba(0, 0, 0, 0.1) !important;
+
+            button {
+                color: var(--art-text) !important;
+
+                &:hover {
+                    background: var(--art-primary) !important;
+                    color: #fff !important;
+                }
+            }
+        }
+    }
+
+    // Checkout sidebar
+    .checkout-sidebar {
+
+        .booking-section,
+        .summary-section {
+            background: #ffffff !important;
+            border-color: rgba(220, 38, 38, 0.15) !important;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
+        }
+
+        .summary-row {
+            color: var(--art-text-muted) !important;
+
+            &.total {
+                color: var(--art-text) !important;
+            }
+        }
+    }
+
+    // Glow shapes need to be subtler on white
+    .auto-glow-shapes .glow-shape {
+        opacity: 0.08;
+    }
+
+    // Header title for cart page
+    .cart-header h1 {
+        color: var(--art-text) !important;
+        -webkit-text-fill-color: unset !important;
+        background: none !important;
+    }
+
+    // Filter badges
+    .badge-tab {
+        background: rgba(220, 38, 38, 0.05);
+        border-color: rgba(220, 38, 38, 0.1) !important;
+        color: var(--art-text-muted);
+
+        &.active {
+            background: rgba(220, 38, 38, 0.1);
+            color: var(--art-primary);
+        }
+    }
+}
