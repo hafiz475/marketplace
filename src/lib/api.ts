@@ -164,6 +164,17 @@ export async function getProfessionals() {
   return response.json();
 }
 
+export async function getProfessionalThemes(industryId: string) {
+  if (USE_MOCK_DATA) {
+    const themes = mockData.professionalThemes[industryId as keyof typeof mockData.professionalThemes] || [];
+    return { themes: clone(themes) };
+  }
+
+  const response = await fetch(`${API_BASE_URL}/api/public/professionals/${industryId}/themes`);
+  if (!response.ok) throw new Error("Failed to fetch professional themes");
+  return response.json();
+}
+
 export async function getSearchSuggestions(query: string, _country?: string) {
   if (USE_MOCK_DATA) {
     const normalizedQuery = query.toLowerCase();

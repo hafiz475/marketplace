@@ -59,7 +59,12 @@
       },
       "inApps": {
         "themesAvailable": [
-          "default"
+          "garage-sunrise",
+          "garage-mint",
+          "garage-lilac",
+          "garage-sky",
+          "garage-peach",
+          "garage-lemon"
         ],
         "availablePdfThemes": [
           "classic"
@@ -3232,5 +3237,45 @@
       "avatar": "✈️",
       "specialty": "Aviation & flight services"
     }
-  ]
+  ],
+  "professionalThemes": {
+    "automotive": [
+      {
+        "id": "garage-sunrise",
+        "name": "Sunrise Garage",
+        "icon": "🌅",
+        "description": "Apricot light, polished chrome, and warm workshop glow."
+      },
+      {
+        "id": "garage-mint",
+        "name": "Mint Service",
+        "icon": "🌿",
+        "description": "Soft mint, sea-glass blue, and calm repair-bay light."
+      },
+      {
+        "id": "garage-lilac",
+        "name": "Lilac Lift",
+        "icon": "☁️",
+        "description": "Lavender dusk with gentle plum and silver details."
+      },
+      {
+        "id": "garage-sky",
+        "name": "Skyline Auto",
+        "icon": "🫧",
+        "description": "Airy sky blue with cloud-white panels and cool steel."
+      },
+      {
+        "id": "garage-peach",
+        "name": "Peach Pitstop",
+        "icon": "🍑",
+        "description": "Peach cream, coral accents, and friendly garage warmth."
+      },
+      {
+        "id": "garage-lemon",
+        "name": "Lemon Workshop",
+        "icon": "🍋",
+        "description": "Butter yellow, leaf green, and a cheerful studio finish."
+      }
+    ]
+  }
 }

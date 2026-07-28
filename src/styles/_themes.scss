@@ -385,3 +385,18 @@
         }
     }
 }
+
+// ===========================================
+// GARAGE OWNER — LIGHT ILLUSTRATED THEMES
+// ===========================================
+.theme-garage-sunrise { --art-bg: #fff6f0; --art-surface: #fffdfb; --art-primary: #e47850; --art-primary-rgb: 228, 120, 80; --art-warm: #f1ac5d; --art-text: #4f2e28; --art-text-muted: #9c7269; --art-glass: rgba(255, 253, 251, .87); --art-font-main: 'Outfit', sans-serif; --art-font-title: 'Outfit', sans-serif; --art-font-bold: 'Outfit', sans-serif; color-scheme: light; }
+.theme-garage-mint { --art-bg: #effbf6; --art-surface: #fcfffd; --art-primary: #38a58d; --art-primary-rgb: 56, 165, 141; --art-warm: #77c8b3; --art-text: #1f4d49; --art-text-muted: #64928a; --art-glass: rgba(252, 255, 253, .87); --art-font-main: 'Outfit', sans-serif; --art-font-title: 'Outfit', sans-serif; --art-font-bold: 'Outfit', sans-serif; color-scheme: light; }
+.theme-garage-lilac { --art-bg: #f8f5ff; --art-surface: #fffefe; --art-primary: #8972c9; --art-primary-rgb: 137, 114, 201; --art-warm: #b096e0; --art-text: #403356; --art-text-muted: #807493; --art-glass: rgba(255, 254, 255, .87); --art-font-main: 'Outfit', sans-serif; --art-font-title: 'Outfit', sans-serif; --art-font-bold: 'Outfit', sans-serif; color-scheme: light; }
+.theme-garage-sky { --art-bg: #f1f9ff; --art-surface: #ffffff; --art-primary: #4999c6; --art-primary-rgb: 73, 153, 198; --art-warm: #7cc7e6; --art-text: #254558; --art-text-muted: #6d8f9f; --art-glass: rgba(255, 255, 255, .87); --art-font-main: 'Outfit', sans-serif; --art-font-title: 'Outfit', sans-serif; --art-font-bold: 'Outfit', sans-serif; color-scheme: light; }
+.theme-garage-peach { --art-bg: #fff6f2; --art-surface: #fffdfc; --art-primary: #d97763; --art-primary-rgb: 217, 119, 99; --art-warm: #ec9c84; --art-text: #593832; --art-text-muted: #9c726a; --art-glass: rgba(255, 253, 252, .87); --art-font-main: 'Outfit', sans-serif; --art-font-title: 'Outfit', sans-serif; --art-font-bold: 'Outfit', sans-serif; color-scheme: light; }
+.theme-garage-lemon { --art-bg: #fffdf0; --art-surface: #fffef9; --art-primary: #9aa84a; --art-primary-rgb: 154, 168, 74; --art-warm: #d8c65a; --art-text: #4d542e; --art-text-muted: #899063; --art-glass: rgba(255, 254, 249, .87); --art-font-main: 'Outfit', sans-serif; --art-font-title: 'Outfit', sans-serif; --art-font-bold: 'Outfit', sans-serif; color-scheme: light; }
+
+.public-products[class*="theme-garage-"] .industry-galaxy .floating-icon {
+    opacity: .18;
+    filter: drop-shadow(0 8px 8px rgba(var(--art-primary-rgb), .18));
+}

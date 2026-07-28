@@ -8,7 +8,7 @@ import React, {
   useMemo,
 } from "react";
 import { createPortal } from "react-dom";
-import { useParams } from "next/navigation";
+import { useParams, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { getPublicProducts, getPublicProfile } from "@/lib/api";
 import { useCart } from "@/lib/CartContext";
@@ -192,7 +192,9 @@ interface Profile {
 
 export default function ProductsPage() {
   const params = useParams();
+  const searchParams = useSearchParams();
   const company = params.company as string;
+  const themeOverride = searchParams.get("theme");
   const {
     items: cartItems,
     addToCart,
@@ -326,7 +328,7 @@ export default function ProductsPage() {
           aboutCompany: raw.store?.aboutCompany,
           storeAddress: raw.store?.location?.address,
           storeLocation: raw.store?.location,
-          selectedTheme: raw.inApps?.selectedTheme || "default",
+          selectedTheme: themeOverride || raw.inApps?.selectedTheme || "default",
           instagramProfile: String(raw.store?.socialProfiles?.instagram || ""),
           facebookProfile: String(raw.store?.socialProfiles?.facebook || ""),
           youtubeProfile: String(raw.store?.socialProfiles?.youtube || ""),
@@ -352,7 +354,7 @@ export default function ProductsPage() {
     } catch (err) {
       console.error("Failed to load profile:", err);
     }
-  }, [company]);
+  }, [company, themeOverride]);
 
   useEffect(() => {
     loadProfile();
