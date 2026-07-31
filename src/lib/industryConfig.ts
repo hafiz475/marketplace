@@ -33,6 +33,9 @@ export interface IndustryConfig {
   promoBadge: string;
   promoCode: string;
   tagline: string;
+  mascotName?: string;
+  mascotIcon?: string;
+  mascotTitle?: string;
   features: IndustryFeature[];
   faqs: IndustryFAQ[];
 }
@@ -57,6 +60,9 @@ export const INDUSTRY_CONFIGS: Record<string, IndustryConfig> = {
     promoBadge: "LIMITED TIME CAMPAIGN",
     promoCode: "AUTO2026",
     tagline: "PERFORMANCE ACCESSORIES & CERTIFIED TUNING",
+    mascotName: "Axel",
+    mascotIcon: "👨‍🔧",
+    mascotTitle: "Master Mechanic",
     features: [
       { icon: "🔧", title: "Certified Mechanics", desc: "ASE-certified technicians operating with precision digital diagnostics." },
       { icon: "🛡️", title: "Genuine OEM Parts", desc: "100% factory-authentic components backed by official manufacturer warranties." },
@@ -90,6 +96,9 @@ export const INDUSTRY_CONFIGS: Record<string, IndustryConfig> = {
     promoBadge: "MEGA TECH SALE",
     promoCode: "TECHUP300",
     tagline: "NEXT-GEN HARDWARE & SMART DIGITAL GEAR",
+    mascotName: "Chip",
+    mascotIcon: "🤖",
+    mascotTitle: "Tech AI Assistant",
     features: [
       { icon: "📱", title: "Original Brand Gear", desc: "Directly authorized retailer for leading global electronics brands." },
       { icon: "🛡️", title: "Extended Warranty", desc: "Up to 3 years total replacement protection against accidental damage." },
@@ -123,6 +132,9 @@ export const INDUSTRY_CONFIGS: Record<string, IndustryConfig> = {
     promoBadge: "WELLNESS INITIATIVE",
     promoCode: "HEALTHFREE",
     tagline: "CLINICAL GRADE EQUIPMENT & WELLNESS CARE",
+    mascotName: "Dr. Clara",
+    mascotIcon: "🩺",
+    mascotTitle: "Medical Wellness Specialist",
     features: [
       { icon: "🩺", title: "Clinical Grade", desc: "FDA & CE certified medical devices tested for hospital-grade precision." },
       { icon: "👨‍⚕️", title: "Licensed Doctors", desc: "Consult directly with experienced medical practitioners online." },
@@ -156,6 +168,9 @@ export const INDUSTRY_CONFIGS: Record<string, IndustryConfig> = {
     promoBadge: "FRESH HARVEST",
     promoCode: "FRESHORGANIC",
     tagline: "ARTISANAL INGREDIENTS & GOURMET SPECIALTIES",
+    mascotName: "Chef Oliver",
+    mascotIcon: "👨‍🍳",
+    mascotTitle: "Master Barista & Baker",
     features: [
       { icon: "🌱", title: "100% Organic", desc: "Ethically grown without artificial pesticides or synthetic chemicals." },
       { icon: "☕", title: "Freshly Roasted", desc: "Coffee beans roasted weekly in small batches to preserve dark chocolate aroma." },
@@ -189,6 +204,9 @@ export const INDUSTRY_CONFIGS: Record<string, IndustryConfig> = {
     promoBadge: "BUILDER CONTRACT",
     promoCode: "BUILD2026",
     tagline: "HEAVY MACHINERY & CERTIFIED BUILDING MATERIALS",
+    mascotName: "Mason",
+    mascotIcon: "👷",
+    mascotTitle: "Site Chief Engineer",
     features: [
       { icon: "🏗️", title: "Site Delivery", desc: "Direct flatbed crane truck delivery straight to your construction site." },
       { icon: "🧱", title: "IS/ISO Certified", desc: "All structural steel, cement, and fasteners meet international safety ratings." },
@@ -576,8 +594,19 @@ const PERSONA_CONFIG_MAP: Record<string, string> = {
  * Retrieve the full industry configuration (colors, promos, features, FAQs).
  */
 export function getIndustryConfig(industryId?: string): IndustryConfig {
-  if (!industryId) return INDUSTRY_CONFIGS.automotive;
+  const defaultMascot = {
+    mascotName: "Store Advisor",
+    mascotIcon: "⭐",
+    mascotTitle: "Verified Representative",
+  };
+  if (!industryId) {
+    return { ...defaultMascot, ...INDUSTRY_CONFIGS.automotive };
+  }
   const normalized = industryId.toLowerCase().replace(/[\s-]+/g, "_");
   const targetId = PERSONA_CONFIG_MAP[normalized] || "automotive";
-  return INDUSTRY_CONFIGS[targetId] || INDUSTRY_CONFIGS.automotive;
+  const conf = INDUSTRY_CONFIGS[targetId] || INDUSTRY_CONFIGS.automotive;
+  return {
+    ...defaultMascot,
+    ...conf,
+  };
 }

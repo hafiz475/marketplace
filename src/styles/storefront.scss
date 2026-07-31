@@ -109,6 +109,7 @@
     .sf-mascot-artwork {
         max-width: 220px;
         width: 100%;
+        position: relative;
         filter: drop-shadow(0 15px 30px rgba(0, 0, 0, 0.35));
         animation: sf-float-mascot 4s ease-in-out infinite alternate;
 
@@ -116,6 +117,38 @@
             width: 100%;
             height: auto;
             object-fit: contain;
+        }
+
+        .sf-mascot-badge {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(8px);
+            border: 1px solid var(--sf-primary);
+            padding: 8px 16px;
+            border-radius: 20px;
+            color: #ffffff;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+
+            .sf-mascot-icon {
+                font-size: 1.5rem;
+            }
+
+            .sf-mascot-details {
+                text-align: left;
+                strong {
+                    display: block;
+                    font-family: var(--sf-font-title);
+                    font-size: 0.95rem;
+                    color: var(--sf-primary);
+                }
+                span {
+                    font-size: 0.75rem;
+                    color: var(--sf-text-muted);
+                }
+            }
         }
     }
 
@@ -176,6 +209,7 @@
         margin-bottom: 12px;
         background: linear-gradient(135deg, #ffffff 30%, var(--sf-primary) 100%);
         -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
     }
 
@@ -271,7 +305,8 @@
 .sf-highlights {
     padding: 20px 24px;
     background: var(--sf-surface);
-    border-y: 1px solid rgba(var(--sf-primary-rgb), 0.15);
+    border-top: 1px solid rgba(var(--sf-primary-rgb), 0.15);
+    border-bottom: 1px solid rgba(var(--sf-primary-rgb), 0.15);
 
     .sf-highlights-grid {
         max-width: 1200px;
@@ -1058,7 +1093,7 @@
 .sf-footer {
     margin-top: 100px;
     background: var(--sf-surface);
-    border-t: 1px solid rgba(var(--sf-primary-rgb), 0.2);
+    border-top: 1px solid rgba(var(--sf-primary-rgb), 0.2);
     padding: 60px 24px 30px;
 
     .sf-footer-container {
@@ -1234,7 +1269,81 @@
 }
 
 
-/* ─── SHARED UTILITY HEADINGS ───────────────────────────────── */
+/* ─── SHARED UTILITY HEADINGS & POSE PILLS ───────────────────── */
+.sf-pose-pill {
+    display: inline-block;
+    padding: 6px 14px;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--sf-primary);
+    color: var(--sf-primary);
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+    margin-top: 8px;
+}
+
+.sf-promo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+    .sf-promo-mascot-wrap {
+        max-width: 180px;
+        text-align: center;
+        filter: drop-shadow(0 12px 24px rgba(0,0,0,0.4));
+        animation: sf-float-mascot 3.5s ease-in-out infinite alternate;
+
+        .sf-promo-mascot-img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+    }
+}
+
+.sf-why-showcase {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+    .sf-why-mascot-wrap {
+        max-width: 180px;
+        text-align: center;
+        filter: drop-shadow(0 12px 24px rgba(0,0,0,0.3));
+
+        .sf-why-mascot-img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+    }
+
+    .sf-why-grid {
+        flex-grow: 1;
+    }
+}
+
+.sf-about-working-mascot {
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+    max-width: 130px;
+    text-align: center;
+    filter: drop-shadow(0 10px 20px rgba(0,0,0,0.4));
+
+    .sf-working-img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+}
+
 .sf-section-header {
     text-align: center;
     margin-bottom: 40px;

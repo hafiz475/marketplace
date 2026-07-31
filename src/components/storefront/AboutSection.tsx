@@ -15,6 +15,8 @@ export function AboutSection({
   assets,
   config,
 }: AboutSectionProps) {
+  const workingMascot = assets.mascots?.working || assets.mascot;
+
   return (
     <section className="sf-about-section">
       <div className="sf-about-container">
@@ -64,6 +66,21 @@ export function AboutSection({
                 e.target.src = assets.hero;
               }}
             />
+
+            {workingMascot && (
+              <div className="sf-about-working-mascot">
+                <img
+                  src={workingMascot}
+                  alt={`${config.mascotName} Working`}
+                  className="sf-working-img"
+                  onError={(e: any) => {
+                    e.target.onerror = null;
+                    e.target.style.display = "none";
+                  }}
+                />
+                <div className="sf-pose-pill">⚙️ {config.mascotName} at Work</div>
+              </div>
+            )}
           </div>
         </div>
       </div>

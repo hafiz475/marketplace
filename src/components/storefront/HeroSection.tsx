@@ -46,9 +46,20 @@ export function HeroSection({
             <div className="sf-mascot-artwork">
               <img
                 src={assets.mascot}
-                alt={`${assets.label} Mascot`}
+                alt={`${config.mascotName} - ${config.mascotTitle}`}
                 className="sf-mascot-img"
+                onError={(e: any) => {
+                  e.target.onerror = null;
+                  e.target.style.display = "none";
+                }}
               />
+              <div className="sf-mascot-badge">
+                <span className="sf-mascot-icon">{config.mascotIcon}</span>
+                <div className="sf-mascot-details">
+                  <strong>{config.mascotName}</strong>
+                  <span>{config.mascotTitle}</span>
+                </div>
+              </div>
             </div>
           )}
         </div>
