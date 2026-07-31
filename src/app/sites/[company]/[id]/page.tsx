@@ -7,6 +7,7 @@ import { getPublicProductById, getPublicProfile, createChatOpsMessage } from "@/
 import { useCart } from "@/lib/CartContext";
 import PublicLoadingScreen from "@/components/PublicLoadingScreen";
 import BusinessAtmosphere from "@/components/BusinessAtmosphere";
+import { getIndustryAssets } from "@/lib/industryAssets";
 import { PLACEHOLDER_ICON, CART_ICON, SOCIAL_ICONS, CALENDAR_ICON } from "@/lib/publicIcons";
 import Link from "next/link";
 import { GlobeLoader } from "@/components/GlobeLoader";
@@ -613,7 +614,6 @@ export default function ProductDetailPage() {
       </div>
     );
   }
-
   const currentSalePrice = selectedVariant
     ? (product.salePrice || 0) + (selectedVariant.additionalPrice || 0)
     : product.salePrice || 0;
@@ -624,11 +624,12 @@ export default function ProductDetailPage() {
   const currentTotalRate = currentSalePrice
     ? Math.round(currentSalePrice * (1 + taxTotal / 100))
     : 0;
+  const industryAssets = getIndustryAssets(profile?.industry);
   const images = product.images?.length
     ? product.images
     : selectedVariant?.images?.length
       ? selectedVariant.images
-      : [];
+      : [industryAssets.products[Math.abs((product.name || "").length) % (industryAssets.products.length || 1)]?.image || industryAssets.hero];
   let badgeIcon: string | null = null;
   if (product.tags?.length) badgeIcon = product.tags[0].icon || null;
 

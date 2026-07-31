@@ -14,6 +14,7 @@ import { getPublicProducts, getPublicProfile } from "@/lib/api";
 import { useCart } from "@/lib/CartContext";
 import PublicLoadingScreen from "@/components/PublicLoadingScreen";
 import BusinessAtmosphere from "@/components/BusinessAtmosphere";
+import { getIndustryAssets } from "@/lib/industryAssets";
 import {
   INDUSTRY_ICONS,
   PRODUCT_ICON,
@@ -430,6 +431,8 @@ export default function ProductsPage() {
   };
 
   const pageCount = Math.ceil(total / size);
+  const industryAssets = useMemo(() => getIndustryAssets(profile?.industry), [profile?.industry]);
+
 
   if (loading && isFirstLoad) {
     return (
@@ -440,6 +443,7 @@ export default function ProductsPage() {
       />
     );
   }
+
 
   // Determine theme class from profile
   const themeClass =
@@ -453,7 +457,34 @@ export default function ProductsPage() {
       <GearCursor themeClass={themeClass} />
 
       <header className="auto-hero">
+        <div
+          className="hero-banner-bg"
+          style={{ backgroundImage: `url(${industryAssets.banner})` }}
+        >
+          <div className="hero-banner-overlay" />
+        </div>
         <div className="hero-content">
+          <div className="hero-showcase-row">
+            <div className="hero-artwork-wrap">
+              <div className="storefront-hero-container">
+                <img
+                  src={industryAssets.hero}
+                  alt={`${industryAssets.label} Storefront`}
+                  className="storefront-hero-img"
+                />
+                <div className="storefront-shine-badge">3D Storefront</div>
+              </div>
+            </div>
+            {industryAssets.mascot && (
+              <div className="hero-mascot-wrap">
+                <img
+                  src={industryAssets.mascot}
+                  alt={`${industryAssets.label} Mascot`}
+                  className="hero-mascot-img"
+                />
+              </div>
+            )}
+          </div>
           {profile?.profileImage && (
             <div className="auto-logo-container">
               <img
@@ -463,9 +494,13 @@ export default function ProductsPage() {
               />
             </div>
           )}
+          <div className="hero-badge-pill">
+            <span className="badge-dot"></span>
+            {industryAssets.label} Official Store
+          </div>
           <h1 className="auto-title">{profile?.company || company}</h1>
           <p className="auto-subtitle">
-            {profile?.aboutCompany || "PERFORMANCE ACCESSORIES & CUSTOM TUNING"}
+            {profile?.aboutCompany || "PREMIUM INDUSTRY CATALOG & EXPERT SERVICES"}
           </p>
 
           <div className="art-socials">
@@ -845,6 +880,71 @@ export default function ProductsPage() {
             </div>
           </>)}
         </div>
+
+        {/* --- WHY CHOOSE US FEATURE BLOCK --- */}
+        <section className="why-choose-us-section">
+          <h2 className="section-heading">Why Choose Our Store</h2>
+          <div className="features-grid">
+            <div className="feature-card">
+              <div className="feature-img-wrap">
+                <img src={industryAssets.illustrations.delivery} alt="Fast Delivery" />
+              </div>
+              <h3>Express Delivery</h3>
+              <p>Direct to your doorstep with real-time tracking</p>
+            </div>
+            <div className="feature-card">
+              <div className="feature-img-wrap">
+                <img src={industryAssets.illustrations.support} alt="24/7 Support" />
+              </div>
+              <h3>Expert Support</h3>
+              <p>Dedicated industry specialists ready to assist you</p>
+            </div>
+            <div className="feature-card">
+              <div className="feature-img-wrap">
+                <img src={industryAssets.illustrations.payment} alt="Secure Payment" />
+              </div>
+              <h3>Secure Checkout</h3>
+              <p>Encrypted payments and flexible order options</p>
+            </div>
+            <div className="feature-card">
+              <div className="feature-img-wrap">
+                <img src={industryAssets.illustrations.about} alt="Verified Quality" />
+              </div>
+              <h3>Verified Quality</h3>
+              <p>100% authentic certified items & warranty coverage</p>
+            </div>
+          </div>
+        </section>
+
+        {/* --- ABOUT & CONTACT ADVISOR SHOWCASE --- */}
+        <section className="store-showcase-section">
+          <div className="showcase-card about-card">
+            <div className="showcase-media">
+              <img src={industryAssets.illustrations.about} alt="About Store" />
+            </div>
+            <div className="showcase-info">
+              <span className="showcase-tag">About Us</span>
+              <h2>Welcome to {profile?.company || company}</h2>
+              <p>{profile?.aboutCompany || `Your premier destination for high quality ${industryAssets.label} products and professional services.`}</p>
+            </div>
+          </div>
+
+          <div className="showcase-card contact-card">
+            <div className="showcase-media">
+              <img src={industryAssets.illustrations.contact} alt="Contact Advisor" />
+            </div>
+            <div className="showcase-info">
+              <span className="showcase-tag">Personalized Assistance</span>
+              <h2>Speak with a Store Advisor</h2>
+              <p>Need help choosing the right item or booking a service? Our team is online and ready to guide you.</p>
+              {profile?.phoneNumber && (
+                <div className="advisor-phone">
+                  📞 {typeof profile.phoneNumber === 'object' ? `${profile.phoneNumber.countryCode} ${profile.phoneNumber.phoneNumber}` : profile.phoneNumber}
+                </div>
+              )}
+            </div>
+          </div>
+        </section>
       </main>
 
       <footer className="art-footer">
