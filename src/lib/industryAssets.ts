@@ -25,12 +25,30 @@ export interface IndustryIllustrations {
   payment: string;
 }
 
+export interface MascotPoses {
+  welcome: string;
+  pointing: string;
+  thumbs: string;
+  working: string;
+  contact: string;
+}
+
+export interface BannerVariants {
+  sale: string;
+  seasonal: string;
+  offer: string;
+  delivery: string;
+}
+
 export interface IndustryAssets {
   id: string;
   label: string;
   hero: string;
+  heroBg: string;
   banner: string;
+  banners: BannerVariants;
   mascot: string;
+  mascots: MascotPoses;
   products: ProductAsset[];
   categories: CategoryAsset[];
   illustrations: IndustryIllustrations;
@@ -49,9 +67,23 @@ function buildAssets(
   return {
     id,
     label,
-    hero: `${b}/hero.png`,
-    banner: `${b}/banner.png`,
-    mascot: `${b}/mascot.png`,
+    hero: `${b}/hero/company.webp`,
+    heroBg: `${b}/hero/hero-bg.webp`,
+    banner: `${b}/banner/offer.webp`,
+    banners: {
+      sale: `${b}/banner/sale.webp`,
+      seasonal: `${b}/banner/seasonal.webp`,
+      offer: `${b}/banner/offer.webp`,
+      delivery: `${b}/banner/delivery.webp`,
+    },
+    mascot: `${b}/mascot/welcome.webp`,
+    mascots: {
+      welcome: `${b}/mascot/welcome.webp`,
+      pointing: `${b}/mascot/pointing.webp`,
+      thumbs: `${b}/mascot/thumbs.webp`,
+      working: `${b}/mascot/working.webp`,
+      contact: `${b}/mascot/contact.webp`,
+    },
     products: productNames.map((name) => ({
       name,
       image: `${b}/products/${name.toLowerCase().replace(/\s+/g, "-")}.png`,
@@ -61,11 +93,11 @@ function buildAssets(
       image: `${b}/category-icons/${name.toLowerCase().replace(/\s+/g, "-")}.png`,
     })),
     illustrations: {
-      about: `${b}/illustrations/about.png`,
-      contact: `${b}/illustrations/contact.png`,
-      delivery: `${b}/illustrations/delivery.png`,
-      support: `${b}/illustrations/support.png`,
-      payment: `${b}/illustrations/payment.png`,
+      about: `${b}/about/about.webp`,
+      contact: `${b}/contact/contact.webp`,
+      delivery: `${b}/delivery/delivery.webp`,
+      support: `${b}/contact/contact.webp`,
+      payment: `${b}/delivery/delivery.webp`,
     },
   };
 }
